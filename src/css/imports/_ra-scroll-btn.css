@@ -1,0 +1,18 @@
+.ra-scroll-btn {
+    display: block;
+    width: 60px;
+    font-size: 14px;
+    margin: 0 auto;
+    text-align: center;
+
+    &:after {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 60px;
+        border-bottom: 1px solid #232323;
+        border-left: 1px solid #232323;
+        transform: rotate(-45deg);
+        margin: -35px auto 0;
+    }
+}
