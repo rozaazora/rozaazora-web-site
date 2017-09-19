@@ -8,11 +8,11 @@
     &:after {
         content: '';
         display: block;
-        width: 60px;
-        height: 60px;
+        width: 36px;
+        height: 36px;
         border-bottom: 1px solid #232323;
         border-left: 1px solid #232323;
         transform: rotate(-45deg);
-        margin: -35px auto 0;
+        margin: -10px auto 0;
     }
 }
