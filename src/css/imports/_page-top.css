@@ -1,0 +1,71 @@
+.ra-page-top {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    & .ra-logo {
+        display: block;
+        margin: 49px auto;
+    }
+    & .ra-page-title {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+        font-size: 4rem;
+        padding: 0;
+        line-height: 1;
+        margin-top: -64px;
+        color: var(--catskill-white);
+        text-shadow: var(--text-shadow);
+
+        
+    }
+    & .ra-home-title {
+        position: absolute;
+        padding: 0;
+        top: 50%;
+        z-index: 1;
+        margin-top: -134px;
+        width: 100%;
+        margin-bottom: 0;
+        & .ra-home-title__image {
+            display: block;
+            max-width: 600px;
+            margin: 0 auto;
+            padding-bottom: 50px;
+            border-bottom: 2px solid white;
+        }
+
+        & > span {
+            display: block;
+            letter-spacing: 3px;
+            padding-top: 50px;
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            font-size: 32px;
+            color: #fff;
+        }
+    }
+    & .ra-video-bg {
+        display: block;
+        min-width: 100%;
+        min-height: 100%;
+        position: relative;
+        z-index: 0;
+    }
+    &::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,0.14);
+        z-index: 0;
+    }
+}

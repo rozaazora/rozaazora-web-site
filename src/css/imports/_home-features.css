@@ -1,0 +1,18 @@
+.ra-home-features {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 160px 0;
+    background-color: #ffffff;
+
+    &__item {
+        box-sizing: border-box;
+        display: inline-block;
+        width: 26%;
+        padding: 0 30px;
+    }
+
+    & img {
+        margin: 0 auto;
+    }
+}

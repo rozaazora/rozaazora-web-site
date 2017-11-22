@@ -1,0 +1,75 @@
+.preload-decoration {
+    animation-name: fade-out;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    &::after, &::before {
+        content: '';
+        display: block;
+        background-color: var(--bastilie);
+        box-shadow: 0 0 1px 0 var(--olive);
+        transition: width 1s, height 1s;
+        z-index: 1000;
+        position: absolute;
+        animation-fill-mode: forwards;
+        animation-duration: .6s;
+    }
+    &::after {
+        height: 2px;
+        width: 0;
+        animation-name: width-change;
+    }
+    &::before {
+        height: 0;
+        width: 2px;
+        animation-name: height-change;
+    }
+    &.is-first {
+        &::after {
+            top: 15px;
+            left: 15px;
+            animation-delay: .4s;
+        }
+        &::before {
+            top: 15px;
+            right: 15px;
+            animation-delay: 1s;
+        }
+    }
+    &.is-second {
+        &::after {
+            bottom: 15px;
+            right: 15px;
+            animation-delay: 1.6s;
+        }
+        &::before {
+            bottom: 15px;
+            left: 15px;
+            animation-delay: 2.2s;
+        }
+    }
+}
+@keyframes width-change {
+    from {
+        width: 0;
+    }
+    to {
+        width: calc(100% - 30px);
+    }
+}
+@keyframes height-change {
+    from {
+        height: 0;
+    }
+    to {
+        height: calc(100% - 30px);
+    }
+}
+@keyframes fade-out {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
