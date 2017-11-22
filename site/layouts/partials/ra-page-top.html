@@ -1,0 +1,12 @@
+<div class="ra-page-top">
+  <video class="ra-video-bg" loop muted>
+    <source src="{{.introVideo}}" type="video/mp4">
+  </video>
+  {{ if .pageTitle }}
+  <h1 class="ra-page-title">
+    {{.pageTitle}}
+  </h1>
+  {{ else }}
+    {{ partial "ra-home-title" . }}
+  {{ end }}
+</div>

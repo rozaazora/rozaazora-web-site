@@ -1,0 +1,104 @@
+.ra-page-loader {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: black;
+    animation-delay: 4.5s;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-name: fadeOut;
+
+    &:after {
+        content: '';
+        display: block;
+        background-color: #232323;
+        width: 1px;
+        height: 100px;
+        position: absolute;
+        z-index: 10;
+        top: 50%;
+        margin-top: -40px;
+        left: 50%;
+        margin-left: -0.5px;
+    }
+
+    & h1 {
+        color: #232323;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        white-space: nowrap;
+    }
+
+    & .pane {
+        display: block;
+        position: absolute;
+        width: 50%;
+        z-index: 5;
+        height: 100%;
+        background-color: #fff;
+        overflow: hidden;
+        animation-delay: 3s;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        animation-name: widthRemove;
+
+        &.right {
+            left: 50%;
+
+            & .to-right {
+                position: absolute;
+                top: 50%;
+                margin-top: -52px;
+                animation-name: moveRight;
+            }
+        }
+
+        &.left {
+            & .to-left {
+                animation-name: moveLeft;
+                position: absolute;
+                top: 50%;
+                margin-top: -52px;
+                text-align: right;
+            }
+        }
+    }
+
+}
+
+@keyframes moveLeft {
+    from {
+        right: -100%;
+    }
+    to {
+        right: 50px;
+    }
+}
+@keyframes widthRemove {
+    from {
+        width: 50%;
+    }
+    to {
+        width: 0px;
+    }
+}
+@keyframes moveRight {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 50px;
+    }
+}
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}

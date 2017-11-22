@@ -1,0 +1,26 @@
+.sticky-menu {
+    display: block;
+    position: sticky;
+    top: 0;
+    background-color: #dedede;
+    font-size: 0;
+    text-align: center;
+    z-index: 4;
+
+    &__item {
+        font-size: 20px;
+        display: inline-block;
+        padding: 20px 32px;
+        text-transform: uppercase;
+        font-family: Oswald, sans-serif;
+        font-weight: 300;
+        line-height: 1.5;
+        border-bottom: 1px solid transparent;
+        color: #666;
+
+        &:hover {
+            color: #232323;
+            border-color: #232323;
+        }
+    }
+}
