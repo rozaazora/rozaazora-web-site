@@ -1,8 +1,9 @@
 import React from "react";
 import CMS from "netlify-cms";
 
-import PostPreview from "./cms-preview-templates/post";
-import ProductsPreview from "./cms-preview-templates/products";
+//import PostPreview from "./cms-preview-templates/post";
+//import ProductsPreview from "./cms-preview-templates/products";
+import BlogPostPreview from "./cms-preview-templates/blog-post";
 
 
 // Example of creating a custom color widget
@@ -18,6 +19,7 @@ class ColorControl extends React.Component {
 }
 
 CMS.registerPreviewStyle("/css/main.css");
-CMS.registerPreviewTemplate("post", PostPreview);
-CMS.registerPreviewTemplate("products", ProductsPreview);
+CMS.registerPreviewTemplate("blog-post", BlogPostPreview);
+//CMS.registerPreviewTemplate("post", PostPreview);
+//CMS.registerPreviewTemplate("products", ProductsPreview);
 CMS.registerWidget("color", ColorControl);
