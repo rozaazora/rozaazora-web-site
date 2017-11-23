@@ -9,7 +9,7 @@ public_folder: "/images/uploads"
 collections: # A list of collections the CMS should be able to edit
   - name: "blog_post"
     label: "Публикации"
-    folder: "site/content/blog-post"
+    folder: "site/content/blog"
     create: true
     fields:
       - {label: "Заголовок", name: "title", widget: "string"}

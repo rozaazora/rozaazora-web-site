@@ -1,7 +1,7 @@
 import React from "react";
 import format from "date-fns/format";
 
-export default class BlogPostPreview extends React.Component {
+export default class BlogPreview extends React.Component {
   render() {
     const {entry, widgetFor} = this.props;
 
