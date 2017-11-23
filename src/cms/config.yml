@@ -7,7 +7,7 @@ media_folder: "site/static/images/uploads" # Folder where user uploaded files sh
 public_folder: "/images/uploads"
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "blog_post"
+  - name: "blog"
     label: "Публикации"
     folder: "site/content/blog"
     create: true
