@@ -1,0 +1,56 @@
+.js-move-decoration {
+    transform: translateY(100px);
+    opacity: 0;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: .5s;
+
+    &.left-to-right {
+        transform: translateX(-100px);
+    }
+    &.right-to-left {
+        transform: translateX(100px);
+    }
+    &.animated {
+        animation-name: animate-move-decoration;
+
+        &.left-to-right {
+            animation-name: animate-move-decoration-ltr;
+        }
+        &.right-to-left {
+            animation-name: animate-move-decoration-rtl;
+        }
+    }
+}
+
+
+@keyframes animate-move-decoration {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes animate-move-decoration-ltr {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes animate-move-decoration-rtl {
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
