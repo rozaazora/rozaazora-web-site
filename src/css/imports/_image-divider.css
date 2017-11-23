@@ -1,0 +1,55 @@
+.ra-image-divider {
+    display: block;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+
+    & h1 {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        top: 150px;
+        color: #fff;
+        font-size: 80px;
+        z-index: 1;
+    }
+    & a {
+        display: block;
+        width: 240px;
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        font-family: var(--font-family-accent);
+        text-transform: uppercase;
+        top: 350px;
+        left: 50%;
+        font-size: 30px;
+        margin-left: -120px;
+        line-height: 30px;
+        padding: 6px 10px;
+        background-color: #343434;
+        transition: background-color 0.4s;
+        z-index: 1;
+        position: relative;
+        &:hover {
+
+            border-color: transparent;
+            background-color: rgba(255,255,255,0.4);
+
+        }
+    }
+
+
+    &:after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        background-color: rgba(0,0,0,0.2);
+    }
+}

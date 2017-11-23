@@ -1,0 +1,11 @@
+.ra-section-title {
+    text-align: center;
+    font-size: 0;
+    margin-bottom: 42px;
+    & span {
+        font-size: 32px;
+        display: inline-block;
+        padding:  0 25px 13px;
+        border-bottom: 1px solid #232323;
+    }
+}

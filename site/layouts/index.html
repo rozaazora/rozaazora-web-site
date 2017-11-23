@@ -1,5 +1,17 @@
 {{ partial "head" . }}
+{{ partial "ra-page-loader" . }}
+{{ partial "ra-site-menu" . }}
+{{ partial "r2-menu-btn" . }}
+{{ partial "ra-page-top" (dict "introVideo" "/video/main.mp4")}}
+{{ partial "ra-sticky-menu" . }}
+{{ partial "ra-home-features" . }}
+{{ partial "ra-image-divider" . }}
+{{ partial "ra-home-recent" . }}
+{{ partial "ra-home-blog-posts" . }}
+{{ partial "ra-image-divider-sm" . }}
+<!-- {{ partial "ra-home-menu" . }} -->
 
+<!--
 {{ partial "nav" . }}
 
 {{ partial "jumbotron" (dict "imageUrl" "/img/home/jumbotron.jpg" "title" "Great coffee with a conscience" "subtitle" "Support sustainable farming while enjoying a cup") }}
@@ -11,5 +23,5 @@
 {{ partial "text-and-image" (dict "heading" "Our values" "text" "Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature." "buttonText" "Read more" "buttonLink" "/values") }}
 
 {{ partial "blog" . }}
-
+-->
 {{ partial "footer" . }}

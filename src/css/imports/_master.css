@@ -1,0 +1,127 @@
+html {
+  font-size: var(--font-size-root);
+  font-family: var(--text-font-family);
+}
+
+body {
+  background-image: url(/img/jg-geo-bg.jpg);
+  background-position: 50%;
+  background-size: 100%;
+  background-attachment: fixed;
+  font-size: var(--text-font-size);
+  line-height: var(--text-line-height);
+  font-weight: var(--text-font-weight);
+  background-color: var(--background-color-base);
+}
+
+a {
+  font-family: var(--link-font-family);
+  font-size: var(--link-font-size);
+  line-height: var(--link-line-height);
+  font-weight: var(--link-font-weight);
+  color: var(--link-color);
+  border-bottom: var(--link-border-bottom);
+  text-decoration: none;
+  &:hover {
+    border-bottom: var(--link-hover-border-bottom);
+  }
+  &:active {
+    background-color: var(--link-active-bg);
+    color: var(--link-active-color);
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  font-family: var(--headings-font-family);
+  font-weight: var(--headings-font-weight);
+  line-height: var(--headings-line-height);
+  padding-top: var(--headings-space-before);
+  padding-bottom: var(--headings-space-after);
+  a {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: 1;
+    &:hover {
+      border: none;
+    }
+  }
+  span:active {
+    background-color: var(--text-color);
+    color: var(--link-active-color);
+  }
+}
+
+h1 {
+  font-size: var(--headings-h1-font-size);
+}
+
+h2 {
+  font-size: var(--headings-h2-font-size);
+}
+
+h3 {
+  font-size: var(--headings-h3-font-size);
+}
+
+h4 {
+  font-size: var(--headings-h4-font-size);
+}
+
+h5 {
+  font-size: var(--headings-h5-font-size);
+}
+
+h6 {
+  font-size: $headings-h6-font-size;
+}
+
+p {
+  padding: calc(var(--margin-base) / 2) 0;
+  a {
+    font-size: inherit;
+  }
+}
+
+time {
+  font-family: var(--number-font-family);
+  font-size: 1rem;
+}
+
+ul {
+  list-style-type: disc;
+  margin: var(--margin-base) calc(3 * var(--margin-base));
+}
+
+li {
+  line-height: var(--text-line-height);
+  padding-bottom: var(--margin-base);
+  padding-top: var(--margin-base);
+  h1, h2, h3, h4, h5, h6 {
+    font-size: var(--headings-h4-font-size);
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.not-loaded > * {
+  display: none !important;
+}
+.not-loaded .ra-page-loader {
+  display: block !important;
+}
+.not-loaded .ra-page-top {
+  display: block !important;
+}

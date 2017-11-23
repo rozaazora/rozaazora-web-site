@@ -42,6 +42,7 @@
     "postcss-import": "^8.1.2",
     "postcss-loader": "^0.9.1",
     "postcss-uncss": "^0.14.0",
+    "siema": "^1.4.6",
     "uncss": "^0.14.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.1",

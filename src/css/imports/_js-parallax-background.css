@@ -1,0 +1,9 @@
+.js-parallax-background {
+    background-size: cover;
+    background-position: 50%;
+    height: 130%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
