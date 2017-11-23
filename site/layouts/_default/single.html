@@ -1,5 +1,7 @@
 {{ partial "head" . }}
-{{ partial "nav" . }}
-{{ partial "jumbotron" (dict "imageUrl" "/img/7.jpg" "title" "This is where the heading goes" "subtitle" "This is where the subtitle goes") }}
+{{ partial "ra-site-menu" . }}
+{{ partial "ra-menu-btn" . }}
+{{ partial "ra-page-top" (dict "introVideo" "/video/about-us.mp4" "pageTitle" "Блог") }}
+{{ partial "ra-preload-decoration" . }}
   {{ .Content }}
 {{ partial "footer" . }}

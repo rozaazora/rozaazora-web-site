@@ -1,14 +1,15 @@
 {{ partial "head" . }}
-{{ partial "nav" . }}
+{{ partial "ra-site-menu" . }}
+{{ partial "ra-menu-btn" . }}
+{{ partial "ra-page-top" (dict "introVideo" "/video/about-us.mp4" "pageTitle" "Блог") }}
+{{ partial "ra-preload-decoration" . }}
 
-{{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" "Latest stories") }}
-
-<div class="mw7 center">
-  <ul class="flex-ns flex-wrap mhn1-ns pa3">
+<div class="posts__container">
+  <ul class="posts__ul">
       {{ range .Data.Pages }}
-          <div class="w-50-ns ph1-ns flex">
+          <li class="posts__li">
             {{ .Render "li"}}
-          </div>
+          </li>
       {{ end }}
   </ul>
 </div>

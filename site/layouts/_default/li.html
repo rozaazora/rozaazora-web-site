@@ -1,9 +1,11 @@
-<a href="{{ .Permalink }}" class="no-underline pa3 bg-grey-1 br1 mb2 db raise w-100">
+<div class="post">
+  <h2 class="f3 b lh-title mb1 primary"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  <!-- <h3>{{ .Params.subtitle}}</h3> -->
+  <p><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time> - {{ .Description }}</p>
+  <img src="{{ .Params.image}}">
+  <p class="link b dib black mb0">Read more →</p>
+</div>
 
-	<h2 class="f3 b lh-title mb1 primary">{{ .Title }}</h2
-    >
-	<p class="mid-gray lh-title mb2">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-	<p class="mb0">{{ .Description }}</p>
-	<p class="link b dib black mb0">Read more →</p>
 
-</a>
+
+
