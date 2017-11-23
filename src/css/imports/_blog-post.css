@@ -1,0 +1,22 @@
+.blog-post {
+    background-color: var(--catskill-white);
+    padding: 20px 160px;
+    & h1 {
+        font-size: 1.5rem;
+    }
+
+    & img {
+        display: block;
+        padding: 8px 0;
+        width: 80%;
+        max-width: 700px;
+    }
+    & p {
+        padding: 0.5rem 0;
+        width: 80%;
+
+        & img {
+            width: 100%;
+        }
+    }
+}

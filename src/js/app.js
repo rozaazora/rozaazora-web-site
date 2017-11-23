@@ -24,19 +24,19 @@ document.addEventListener("DOMContentLoaded", () => {
     // video.playbackRate = 0.6;
     video.play();
 
-    if (siemaElement != null) {
-      siema = new Siema({
-        loop: true,
-        duration: 1000
-      });
-      const runSi = () => {
-        siema.next(1, () => {
-          setTimeout(() => {
-            runSi();
-          }, 5000);
-        });
-      };
-    }
+    // if (siemaElement != null) {
+    //   siema = new Siema({
+    //     loop: true,
+    //     duration: 1000
+    //   });
+    //   const runSi = () => {
+    //     siema.next(1, () => {
+    //       setTimeout(() => {
+    //         runSi();
+    //       }, 5000);
+    //     });
+    //   };
+    // }
 
 
 
@@ -70,9 +70,9 @@ document.addEventListener("DOMContentLoaded", () => {
       onScrollPrallaxHandler(scrolled);
     });
 
-    setTimeout(() => {
-      runSi();
-    }, 5000);
+    // setTimeout(() => {
+    //   runSi();
+    // }, 5000);
 
   }, 4500);
 
