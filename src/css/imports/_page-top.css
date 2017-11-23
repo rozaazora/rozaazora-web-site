@@ -3,6 +3,11 @@
     overflow: hidden;
     position: relative;
     background-color: #fff;
+
+    &--inner {
+        height: 400px;
+    }
+
     & .ra-logo {
         display: block;
         margin: 49px auto;
