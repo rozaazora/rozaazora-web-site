@@ -3,8 +3,8 @@ backend:
   repo: <% GITHUB_REPOSITORY %> # Gulp will replace this with your GitHub repository
   branch: master # Branch to update (master by default)
 
-media_folder: "site/static/img" # Folder where user uploaded files should go
-public_folder: "img"
+media_folder: "site/static/images/uploads" # Folder where user uploaded files should go
+public_folder: "/images/uploads"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "blog_post"
