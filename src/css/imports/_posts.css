@@ -1,0 +1,62 @@
+.posts {
+    &__container {
+        background-color: var(--catskill-white);
+        padding: 0 160px;
+    }
+
+    &__ul {
+        margin: 0;
+        list-style: none;
+    }
+
+    &__li {
+        padding: 20px 0;
+    }
+}
+
+.post {
+    & h2 {
+        font-size: 1.5rem;
+        & a {
+            font-size: inherit;
+            color: inherit;
+            font-family: inherit;
+
+            &:hover {
+                border-color: transparent;
+            }
+        }
+    }
+    & time {
+        font-size: 0.5rem;
+        letter-spacing: 3px;
+        color: var(--silver-chalice);
+    }
+
+    & img {
+        display: block;
+        width: 70%;
+        max-width: 700px;
+        margin: 8px 0;
+    }
+    & p {
+        line-height: 1.7;
+        padding: 0.5rem 0;
+        width: 80%;
+    }
+
+    &__read-more {
+        font-size: 1.5rem;
+        padding: 0 16px;
+        display: block;
+        width: 60px;
+        margin-right: auto;
+        border: 0;
+        text-align: center;
+        &:hover {
+            border: 0;
+
+            background-color: var(--anakiwa);
+        }
+    }
+}
