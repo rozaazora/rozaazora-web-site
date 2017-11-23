@@ -1,6 +1,19 @@
+
 {{ partial "head" . }}
 {{ partial "ra-site-menu" . }}
 {{ partial "ra-menu-btn" . }}
 {{ partial "ra-page-top" (dict "introVideo" "/video/about-us.mp4" "pageTitle" "Блог") }}
 {{ partial "ra-preload-decoration" . }}
+{{.Data.Pages}}
+<div class="mw7 center">
+  <ul class="">
+
+      {{ range .Data.Pages }}
+          <div class="w-50-ns ph1-ns flex">
+            {{ .title}}
+          </div>
+      {{ end }}
+  </ul>
+</div>
+
 {{ partial "footer" . }}

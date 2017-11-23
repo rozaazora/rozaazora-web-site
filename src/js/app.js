@@ -9,6 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const body = document.body;
   let parallaxes;
   let moveDecorations;
+  let siemaElement;
+  let siema;
 
   setTimeout(() => {
 
@@ -18,21 +20,26 @@ document.addEventListener("DOMContentLoaded", () => {
     menuBtn = document.getElementById("menu_btn");
     parallaxes = document.querySelectorAll(".js-parallax-background");
     moveDecorations = document.querySelectorAll(".js-move-decoration");
+    siemaElement = document.querySelectorAll(".siema");
     // video.playbackRate = 0.6;
     video.play();
 
-    const siema = new Siema({
-      loop: true,
-      duration: 1000
-    });
-
-    const runSi = () => {
-      siema.next(1, () => {
-        setTimeout(() => {
-          runSi();
-        }, 5000);
+    if (siemaElement != null) {
+      siema = new Siema({
+        loop: true,
+        duration: 1000
       });
-    };
+      const runSi = () => {
+        siema.next(1, () => {
+          setTimeout(() => {
+            runSi();
+          }, 5000);
+        });
+      };
+    }
+
+
+
 
     menuBtn.addEventListener("click", ($event) => {
       console.log("menu toggle");
