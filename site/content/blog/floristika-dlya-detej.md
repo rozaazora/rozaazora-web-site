@@ -15,10 +15,13 @@ image: /images/uploads/6.jpg
 
 Работы детей всегда наполнены огромным смыслом.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Cq0JG7lcMHA" frameborder="0" allowfullscreen></iframe>
+
 Очень простые с точки зрения флористики композиции в коробке, но в каждой из них своя философия, у каждой своя история и своя детская душа.
 
 А вы знаете мир своего ребенка, позволяете ему жить в сказке?
 
 ![null](/images/uploads/5.jpg)
+
 
 
