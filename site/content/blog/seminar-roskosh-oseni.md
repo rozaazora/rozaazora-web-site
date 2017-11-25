@@ -16,6 +16,6 @@ image: /images/uploads/1.jpg
 
 ![null](/images/uploads/3.jpg)
 
+<label>image text</label>
+
 ![null](/images/uploads/2.jpg)
-
-
