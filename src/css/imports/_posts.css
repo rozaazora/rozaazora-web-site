@@ -2,12 +2,13 @@
     &__container {
         background-color: var(--catskill-white);
         padding: 0 160px;
+        padding-top: 40px;
     }
 
     &__ul {
         margin: 0;
         list-style: none;
-        padding-top: 40px;
+
         padding-bottom: 40px;
         padding-left: 50px;
         display: flex;

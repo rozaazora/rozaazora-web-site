@@ -11,7 +11,10 @@
 {{ partial "ra-sticky-menu" . }}
 
 <div class="posts__container">
-  {{ $pag := .Paginate (.Data.Pages) 4 }}
+    <h1 class="ra-section-title">
+        <span>Наши последние новости</span>
+    </h1>
+  {{ $pag := .Paginate (.Data.Pages) 6 }}
   <div class="posts__ul">
     {{ range $pag.Pages }}
     <div class="posts__li">
