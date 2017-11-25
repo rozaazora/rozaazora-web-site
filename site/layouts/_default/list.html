@@ -14,13 +14,13 @@
 <!-- {{ partial "ra-preload-decoration" . }} -->
 
 <div class="posts__container">
-  <ul class="posts__ul">
+  <div class="posts__ul">
       {{ range .Data.Pages }}
-          <li class="posts__li">
+          <div class="posts__li">
             {{ .Render "li"}}
-          </li>
+          </div>
       {{ end }}
-  </ul>
+  </div>
 </div>
 
 {{ partial "footer" . }}
