@@ -1,7 +1,7 @@
 .posts {
     &__container {
         background-color: var(--catskill-white);
-        padding: 0 40px;
+        padding: 0 160px;
     }
 
     &__ul {
@@ -19,7 +19,7 @@
         padding: 0 50px;
         display: inline-block;
         vertical-align: top;
-        width: calc(25% + 35px);
+        width: calc(33.33% + 35px);
         background-color: var(--catskill-white);
         box-sizing: border-box;
         position: relative;

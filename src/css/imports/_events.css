@@ -1,0 +1,6 @@
+.events {
+    &__container {
+        background-color: var(--catskill-white);
+        padding: 40px 160px;
+    }
+}

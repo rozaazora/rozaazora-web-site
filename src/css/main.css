@@ -24,3 +24,5 @@
 @import './imports/_read-more-link';
 @import './imports/_posts';
 @import './imports/_blog-post';
+@import './imports/_events';
+@import './imports/_events-item';

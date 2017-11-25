@@ -1,0 +1,22 @@
+{{ partial "head" . }}
+{{ partial "ra-site-menu" . }}
+{{ partial "r2-menu-btn" . }}
+<div class="ra-page-top ra-page-top--inner">
+    <video class="ra-video-bg" loop muted>
+        <source src="/video/about-us.mp4" type="video/mp4">
+    </video>
+    <h1 class="ra-page-title">
+        Анонсы
+    </h1>
+</div>
+{{ partial "ra-sticky-menu" . }}
+
+<div class="events__container">
+    <div class="events__ul">
+        {{ range .Data.Pages }}
+            {{ .Render "li"}}
+        {{ end }}
+    </div>
+</div>
+
+{{ partial "footer" . }}

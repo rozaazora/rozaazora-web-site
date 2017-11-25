@@ -1,7 +1,7 @@
 <div class="post">
   <h2 class="f3 b lh-title mb1 primary"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
   <!-- <h3>{{ .Params.subtitle}}</h3> -->
-  <p><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time> - {{ .Description }}</p>
+  <p><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02-01-2006" }}</time> - {{ .Description }}</p>
   <img src="{{ .Params.image}}">
   <a href="{{ .Permalink }}" class="post__read-more">→</a>
 </div>

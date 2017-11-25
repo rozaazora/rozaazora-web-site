@@ -1,0 +1,15 @@
+<a href="{{ .Permalink }}" class="events-item">
+    <h2>
+        {{ .Title }}
+    </h2>
+    <p>
+        <time datetime="{{ .Date.Format " 2006-01-02 " }}">{{ .Date.Format "01-02-2006" }}</time>
+    </p>
+    <!-- <h3>{{ .Params.subtitle}}</h3> -->
+    <div class="events-item__image" style="background-image: url({{ .Params.image}})">
+        <h3>
+            {{ .Params.subtitle}}
+        </h3>
+    </div>
+    <span class="post__read-more">→</span>
+</a>
