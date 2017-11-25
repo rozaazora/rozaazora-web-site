@@ -11,6 +11,7 @@
         padding-bottom: 40px;
         padding-left: 50px;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
     }
 
@@ -26,7 +27,7 @@
         z-index: 1;
         transition: transform 0.4s;
         padding-bottom: 72px;
-        
+        margin-bottom: 40px;
         &:hover {
             box-shadow: 0 0 10px 1px rgba(0,0,0,0.4);
             background-color: #fff;

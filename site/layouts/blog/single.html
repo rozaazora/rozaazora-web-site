@@ -1,0 +1,11 @@
+{{ partial "head" . }}
+{{ partial "ra-site-menu" . }}
+{{ partial "r2-menu-btn" . }}
+<div class="blog-post">
+  <h1>{{ .Title}} for blog only</h1>
+  <p>{{ .Description}}</p>
+  <img src="{{ .Params.image }}">
+  {{ .Content }}
+  <a href="/blog" class="post__read-more">←</a>
+</div>
+{{ partial "footer" . }}

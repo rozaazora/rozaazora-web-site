@@ -19,4 +19,8 @@
             width: 100%;
         }
     }
+
+    & .post__read-more {
+        position: relative;
+    }
 }
