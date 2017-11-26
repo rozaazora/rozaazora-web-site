@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let moveDecorations;
   let siemaElement;
   let siema;
+  let runSi;
 
   setTimeout(() => {
 
@@ -27,21 +28,19 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    // if (siemaElement != null) {
-    //   siema = new Siema({
-    //     loop: true,
-    //     duration: 1000
-    //   });
-    //   const runSi = () => {
-    //     siema.next(1, () => {
-    //       setTimeout(() => {
-    //         runSi();
-    //       }, 5000);
-    //     });
-    //   };
-    // }
-
-
+    if (siemaElement != null) {
+      siema = new Siema({
+        loop: true,
+        duration: 1000
+      });
+      runSi = () => {
+        siema.next(1, () => {
+          setTimeout(() => {
+            runSi();
+          }, 5000);
+        });
+      };
+    }
 
     if (menuBtn != null) {
       menuBtn.addEventListener("click", ($event) => {
@@ -75,9 +74,12 @@ document.addEventListener("DOMContentLoaded", () => {
       onScrollPrallaxHandler(scrolled);
     });
 
-    // setTimeout(() => {
-    //   runSi();
-    // }, 5000);
+    if (runSi != null) {
+      setTimeout(() => {
+        runSi();
+      }, 5000);
+    }
+
 
   }, 4500);
 
