@@ -15,7 +15,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Заголовок", name: "title", widget: "string"}
-      - {label: "Подзаголовок", name: "subtitle", widget: "string"z}
+      - {label: "Подзаголовок", name: "subtitle", widget: "string"}
       - {label: "Дата публиуации", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma"}
       - {label: "Вводное описание", name: "description", widget: "text"}
       - {label: "Изображение", name: "image", widget: "image", required: false}
