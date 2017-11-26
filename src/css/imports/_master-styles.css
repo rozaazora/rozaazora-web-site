@@ -79,7 +79,12 @@ h5 {
 }
 
 h6 {
-  font-size: $headings-h6-font-size;
+  font-size: var(--headings-h6-font-size);
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 p {
@@ -108,11 +113,6 @@ li {
     padding-bottom: 0;
     padding-top: 0;
   }
-}
-
-img {
-  display: block;
-  max-width: 100%;
 }
 
 .not-loaded > * {
