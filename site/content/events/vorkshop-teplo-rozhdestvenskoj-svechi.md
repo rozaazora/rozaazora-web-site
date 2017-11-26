@@ -1,9 +1,9 @@
 ---
 title: Воркшоп "Тепло рождественской свечи"
 subtitle: рождественская флористика
-date: 12/13/2017 6:00 PM
-eventStartDate: 12/13/2017 6:00 PM
-eventEndDate: 2017-12-13T18:30:00.000Z
+date: 2017-08-23T16:35:50+03:00
+eventStartDate: 2017-08-23T16:35:50+03:00
+eventEndDate: 2017-08-23T16:35:50+03:00
 description: Самый теплый и уютный рождественский воркшоп
 image: /images/uploads/DSCF3945_.jpg
 ---
