@@ -1,9 +1,7 @@
 @import './_reset';
 @import './_variables';
-
-@import './imports/_master';
+@import './imports/_master-styles';
 @import './imports/_page-top';
-
 @import './imports/_scroll-btn';
 @import './imports/_arrow-link';
 @import './imports/_point-of-intrest';
