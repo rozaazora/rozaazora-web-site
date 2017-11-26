@@ -2,10 +2,20 @@
     text-align: center;
     font-size: 0;
     margin-bottom: 42px;
-    & span {
+    & a {
         font-size: 32px;
         display: inline-block;
+        color: #666;
         padding:  0 25px 13px;
-        border-bottom: 1px solid #232323;
+        border-bottom: 1px solid #666;
+
+        &:hover {
+            color: var(--bastilie);
+            border-bottom: 1px solid var(--bastilie);
+        }
+
+        &:active {
+            color: var(--silver-chalice);
+        }
     }
 }

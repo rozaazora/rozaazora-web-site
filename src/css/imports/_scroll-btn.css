@@ -4,11 +4,13 @@
     font-size: 14px;
     margin: 0 auto;
     text-align: center;
-    position: fixed;
+    position: absolute;
     bottom: 60px;
     left: 50%;
     margin-left: -30px;
     color: #fff;
+    text-transform: uppercase;
+    font-family: var(--headings-font-family);
     &:after {
         content: '';
         display: block;

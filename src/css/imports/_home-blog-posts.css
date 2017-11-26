@@ -1,9 +1,7 @@
 .ra-home-blog-posts {
     text-align: center;
     background-color: #fefefe;
-    padding: 80px 160px;
-
-
+    padding: 40px 160px;
     &__container {
         width: 100%;
         display: flex;

@@ -1,10 +1,10 @@
 <div class="ra-home-blog-posts">
     <h1 class="ra-section-title">
-        <span>Блог</span>
+        <a href="/blog">Блог</a>
     </h1>
     <div class="ra-home-blog-posts__container">
         {{ $blogPosts := (where .Data.Pages "Type" "blog")}}
-        {{ range (.Paginate ( first 3 $blogPosts.ByDate)).Pages }}
+        {{ range (.Paginate ( first 3 $blogPosts.ByDate.Reverse)).Pages }}
             <div class="ra-home-blog-posts__item js-move-decoration">
                 <div class="ra-home-blog-posts__item-image">
                     <div style="background-image: url({{ .Params.image }}"></div>
@@ -22,6 +22,9 @@
         {{ end }}
     </div>
 
+    <div class="read-all-link">
+        <a href="/blog">Все новости</a>
+    </div>
 
 
 </div>

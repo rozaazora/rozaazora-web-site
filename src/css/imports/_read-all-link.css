@@ -1,0 +1,17 @@
+.read-all-link {
+    text-align: right;
+    margin-top: 20px;
+
+    & a {
+        color: #666;
+        margin-right: 10px;
+        border-bottom: 1px solid transparent;
+        &:hover {
+            color: var(--bastilie);
+            border-bottom-color: var(--bastilie);
+        }
+        &:active {
+            color: var (--silver-chalice);
+        }
+    }
+}
