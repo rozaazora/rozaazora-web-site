@@ -22,7 +22,10 @@ document.addEventListener("DOMContentLoaded", () => {
     moveDecorations = document.querySelectorAll(".js-move-decoration");
     siemaElement = document.querySelectorAll(".siema");
     // video.playbackRate = 0.6;
-    video.play();
+    if (video != null) {
+      video.play();
+    }
+
 
     // if (siemaElement != null) {
     //   siema = new Siema({
@@ -40,11 +43,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+    if (menuBtn != null) {
+      menuBtn.addEventListener("click", ($event) => {
+        console.log("menu toggle");
+        body.classList.toggle("is-menu");
+      });
+    }
 
-    menuBtn.addEventListener("click", ($event) => {
-      console.log("menu toggle");
-      body.classList.toggle("is-menu");
-    });
 
     const onScrollPrallaxHandler = (scrolled) => {
       const viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
