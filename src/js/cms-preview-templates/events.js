@@ -11,9 +11,9 @@ export default class EventsPreview extends React.Component {
       Публикация
       <div className="news-page__spublication-date">{ format(entry.getIn(["data", "date"]), "MMMM Do YYYY, h:mm:ss a") }</div>
       Начало
-      <div className="news-page__spublication-date">{ format(entry.getIn(["data", "eventStartDate"]), "MMMM Do YYYY, h:mm:ss a") }</div>
+      <div className="news-page__spublication-date">{ format(entry.getIn(["data", "eventStartDate"]), "MMMM Do YYYY, hh:mm:ss") }</div>
       Конец
-      <div className="news-page__spublication-date">{ format(entry.getIn(["data", "eventEndDate"]), "MMMM Do YYYY, h:mm:ss a") }</div>
+      <div className="news-page__spublication-date">{ format(entry.getIn(["data", "eventEndDate"]), "MMMM Do YYYY, hh:mm:ss") }</div>
       <div className="news-page__description">
         <p>{ entry.getIn(["data", "description"])}</p>
       </div>
