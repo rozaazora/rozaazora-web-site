@@ -1,9 +1,9 @@
 ---
 title: Основы европейской флористики
 subtitle: базовый курс
-date: 2017-11-26T20:34:03.940Z
-eventStartDate: 2017-12-26T09:30:03+03:00
-eventEndDate: 2018-05-31T23:34:03+03:00
+date: 2018-01-26T09:30:03+03:00
+eventStartDate: 2018-01-26T06:30:03.000Z
+eventEndDate: 2018-05-31T18:30:03.000Z
 description: Курс для полного погружения в профессию флориста
 image: /images/uploads/flwrs_24.png
 ---
@@ -34,5 +34,8 @@ image: /images/uploads/flwrs_24.png
 ![базовый курс флористика](/images/uploads/DSCF2545.jpg)
 
 ![базовый курс флористика](/images/uploads/DSCF3212.jpg)
+
+
+
 
 
