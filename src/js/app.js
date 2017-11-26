@@ -20,28 +20,29 @@ document.addEventListener("DOMContentLoaded", () => {
     menuBtn = document.getElementById("menu_btn");
     parallaxes = document.querySelectorAll(".js-parallax-background");
     moveDecorations = document.querySelectorAll(".js-move-decoration");
-    siemaElement = document.querySelectorAll(".siema");
+    siemaElement = document.querySelectorAll(".siema")[0];
     // video.playbackRate = 0.6;
     if (video != null) {
       video.play();
     }
 
 
-    // if (siemaElement != null) {
-    //   siema = new Siema({
-    //     loop: true,
-    //     duration: 1000
-    //   });
-    //   const runSi = () => {
-    //     siema.next(1, () => {
-    //       setTimeout(() => {
-    //         runSi();
-    //       }, 5000);
-    //     });
-    //   };
-    // }
-
-
+    if (siemaElement != null) {
+      siema = new Siema({
+        loop: true,
+        duration: 1000
+      });
+      const runSi = () => {
+        siema.next(1, () => {
+          setTimeout(() => {
+            runSi();
+          }, 5000);
+        });
+      };
+      setTimeout(() => {
+        runSi();
+      }, 5000);
+    }
 
     if (menuBtn != null) {
       menuBtn.addEventListener("click", ($event) => {
@@ -75,9 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
       onScrollPrallaxHandler(scrolled);
     });
 
-    // setTimeout(() => {
-    //   runSi();
-    // }, 5000);
+
 
   }, 4500);
 
