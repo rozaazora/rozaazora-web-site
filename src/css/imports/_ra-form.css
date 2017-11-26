@@ -1,0 +1,31 @@
+.ra-form {
+    display: flex;
+    max-width: 1000px;
+    & > div {
+        width: 50%;
+        
+    }
+    &__inputs {
+        padding-right: 20px;
+    }
+    & input {
+        display: block;
+        width: 100%;
+        font-size: 20px;
+        border: 1px solid #666;
+        padding: 6px 10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+
+    & textarea {
+        display: block;
+        font-size: 20px;
+        border: 1px solid #666;
+        resize: none;
+        height: 132px;
+        padding: 10px 10px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+}

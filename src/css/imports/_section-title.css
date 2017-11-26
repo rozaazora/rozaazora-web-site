@@ -2,7 +2,7 @@
     text-align: center;
     font-size: 0;
     margin-bottom: 42px;
-    & a {
+    & a, & span {
         font-size: 32px;
         display: inline-block;
         color: #666;
@@ -17,5 +17,10 @@
         &:active {
             color: var(--silver-chalice);
         }
+    }
+    & span {
+        color: var(--bastilie);
+        border-bottom: 1px solid var(--bastilie);
+        pointer-events: none;
     }
 }
