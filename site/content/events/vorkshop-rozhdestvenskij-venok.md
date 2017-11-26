@@ -1,8 +1,8 @@
 ---
 title: Воркшоп "Рождественский венок"
 subtitle: зимняя флористика
-date: 2017-12-10T11:57:57.000Z
-eventStartDate: 2017-12-10T00:00:00+03:00
+date: 12/10/2017 12:00 PM
+eventStartDate: 12/10/2017 12:00 PM
 eventEndDate: 2017-12-10T12:30:00.000Z
 description: Время создать свою рождественскую ароматную историю!
 image: /images/uploads/DSCF6304.jpg
@@ -16,6 +16,7 @@ image: /images/uploads/DSCF6304.jpg
 ![рождественский венок](/images/uploads/DSCF6292.jpg)
 
 ![рождественский венок](/images/uploads/DSCF6324.jpg)
+
 
 
 
