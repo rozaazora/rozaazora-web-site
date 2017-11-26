@@ -3,7 +3,7 @@ title: Воркшоп "Тепло рождественской свечи"
 subtitle: Воркшоп в РозаАзора
 date: 2017-12-13T15:00:57.000Z
 eventStartDate: 2017-12-13T15:00:15.000Z
-eventEndDate: '12/13/2017 9:30 PM'
+eventEndDate: 2017-12-13T18:30:15.000Z
 description: Самый теплый и уютный рождественский воркшоп
 image: /images/uploads/DSCF3945_.jpg
 ---

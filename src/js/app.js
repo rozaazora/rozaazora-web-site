@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let moveDecorations;
   let siemaElement;
   let siema;
+  let runSi;
 
   setTimeout(() => {
 
@@ -20,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     menuBtn = document.getElementById("menu_btn");
     parallaxes = document.querySelectorAll(".js-parallax-background");
     moveDecorations = document.querySelectorAll(".js-move-decoration");
-    siemaElement = document.querySelectorAll(".siema")[0];
+    siemaElement = document.querySelectorAll(".siema");
     // video.playbackRate = 0.6;
     if (video != null) {
       video.play();
@@ -32,16 +33,13 @@ document.addEventListener("DOMContentLoaded", () => {
         loop: true,
         duration: 1000
       });
-      const runSi = () => {
+      runSi = () => {
         siema.next(1, () => {
           setTimeout(() => {
             runSi();
           }, 5000);
         });
       };
-      setTimeout(() => {
-        runSi();
-      }, 5000);
     }
 
     if (menuBtn != null) {
@@ -76,6 +74,11 @@ document.addEventListener("DOMContentLoaded", () => {
       onScrollPrallaxHandler(scrolled);
     });
 
+    if (runSi != null) {
+      setTimeout(() => {
+        runSi();
+      }, 5000);
+    }
 
 
   }, 4500);
