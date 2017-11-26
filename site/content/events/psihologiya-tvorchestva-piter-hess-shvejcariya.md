@@ -1,7 +1,7 @@
 ---
 title: Психология творчества / Питер Хесс (Швейцария)
 subtitle: 'Питер Хесс и РозаАзора '
-event_date: 2017-11-30T09:30:14+03:00
+event_date: 2017-11-30T06:30:14.000Z
 description: 'Курс-открытие себя, источников вдохновения, своих настоящих чувств!'
 image: /images/uploads/hess.jpg
 ---
@@ -13,5 +13,19 @@ image: /images/uploads/hess.jpg
 30 ноября - 2 декабря - "Поиск творческого "Я" .
 
 4 - 6 декабря - "Концепты красоты в современном искусстве"
+
+![Peter Hess](/images/uploads/050.jpg)
+
+![Peter Hess](/images/uploads/038.jpg)
+
+![Peter Hess](/images/uploads/Photo_0968.jpg)
+
+![Peter Hess](/images/uploads/Photo_0989.jpg)
+
+![Peter Hess](/images/uploads/Photo_1038.jpg)
+
+![Peter Hess](/images/uploads/Photo_1308.jpg)
+
+![Peter Hess](/images/uploads/Photo_1884.jpg)
 
 
