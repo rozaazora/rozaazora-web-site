@@ -35,8 +35,8 @@
     --link-line-height: var(--text-line-height);
     --link-font-weight: var(--text-font-weight);
     --link-color: var(--san-marino);
-    --link-active-bg: var(--crimson);
-    --link-active-color: var(--catskill-white);
+    --link-active-bg: transparent;
+    --link-active-color: var(--silver-chalice);
     --link-border-bottom: 0px solid transparent;
     --link-hover-border-bottom: 1px solid var(--link-color);
     --headings-font-family: var(--font-family-accent);

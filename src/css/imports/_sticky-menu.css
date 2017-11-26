@@ -19,8 +19,12 @@
         color: #666;
 
         &:hover {
-            color: #232323;
-            border-color: #232323;
+            color: var(--bastilie);
+            border-color: var(--bastilie);
+        }
+
+        &:active {
+            color: var(--silver-chalice);
         }
     }
 }
