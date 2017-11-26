@@ -42,7 +42,7 @@ h6 {
   line-height: var(--headings-line-height);
   padding-top: var(--headings-space-before);
   padding-bottom: var(--headings-space-after);
-  a {
+  & a {
     color: inherit;
     font-family: inherit;
     font-size: inherit;
@@ -52,7 +52,7 @@ h6 {
       border: none;
     }
   }
-  span:active {
+  & span:active {
     background-color: var(--text-color);
     color: var(--link-active-color);
   }
@@ -84,7 +84,7 @@ h6 {
 
 p {
   padding: calc(var(--margin-base) / 2) 0;
-  a {
+  & a {
     font-size: inherit;
   }
 }
@@ -103,7 +103,7 @@ li {
   line-height: var(--text-line-height);
   padding-bottom: var(--margin-base);
   padding-top: var(--margin-base);
-  h1, h2, h3, h4, h5, h6 {
+  & h1, & h2, & h3, & h4, & h5, & h6 {
     font-size: var(--headings-h4-font-size);
     padding-bottom: 0;
     padding-top: 0;
