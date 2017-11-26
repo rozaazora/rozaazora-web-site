@@ -1,6 +1,6 @@
 <div class="ra-home-blog-posts">
     <h1 class="ra-section-title">
-        <span>Блог</span>
+        <a href="/blog">Блог</a>
     </h1>
     <div class="ra-home-blog-posts__container">
         {{ $blogPosts := (where .Data.Pages "Type" "blog")}}
@@ -22,6 +22,9 @@
         {{ end }}
     </div>
 
+    <div class="read-all-link">
+        <a href="/blog">Все новости</a>
+    </div>
 
 
 </div>
