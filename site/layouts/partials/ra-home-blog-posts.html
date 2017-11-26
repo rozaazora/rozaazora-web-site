@@ -4,7 +4,7 @@
     </h1>
     <div class="ra-home-blog-posts__container">
         {{ $blogPosts := (where .Data.Pages "Type" "blog")}}
-        {{ range (.Paginate ( first 3 $blogPosts.ByDate)).Pages }}
+        {{ range (.Paginate ( first 3 $blogPosts.ByDate.Reverse)).Pages }}
             <div class="ra-home-blog-posts__item js-move-decoration">
                 <div class="ra-home-blog-posts__item-image">
                     <div style="background-image: url({{ .Params.image }}"></div>
