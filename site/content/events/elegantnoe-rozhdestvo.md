@@ -1,9 +1,9 @@
 ---
 title: Элегантное рождество
-subtitle: рождественский семинар
-date: 2017-12-08T14:57:57+03:00
-eventStartDate: 2017-12-08T09:00:57+03:00
-eventEndDate: 2017-12-09T18:00:57+03:00
+subtitle: волшебство с французским шармом
+date: 2017-12-08T11:57:57.000Z
+eventStartDate: 2017-12-08T06:00:57.000Z
+eventEndDate: 2017-12-09T15:00:57.000Z
 description: >-
   Впервые в Беларуси чемпион Франции по профессиональной флористике Жан-Луи
   Амис.
@@ -32,6 +32,7 @@ image: /images/uploads/flwrs_33_1.png
 ![Жан-Луи Амис](/images/uploads/cannuaire internationnal 2005.2006 010.jpg)
 
 ![Жан-Луи Амис](/images/uploads/c201010-Amice-07.jpg)
+
 
 
 
