@@ -1,18 +1,28 @@
 .ra-home-blog-posts {
     text-align: center;
     background-color: #fefefe;
-    padding: 80px 0;
+    padding: 80px 160px;
+
+
+    &__container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
     &__item {
-        display: inline-block;
-        width: 26%;
+        width: 33.33%;
         padding: 30px 30px;
+        padding-bottom: 66px;
         box-sizing: border-box;
         text-align: left;
         margin: 0 10px;
         border: 1px solid #ddd;
-
+        position: relative;
         & a {
             background-color: #343434;
+            position: absolute;
+            bottom: 30px;
+            left: 30px;
             color: #fff;
             font-size: 20px;
             padding: 6px 14px;
