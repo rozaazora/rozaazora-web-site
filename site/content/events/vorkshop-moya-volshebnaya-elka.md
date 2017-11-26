@@ -1,9 +1,9 @@
 ---
 title: Воркшоп "Моя волшебная елка"
 subtitle: зимняя флористика
-date: 2017-11-25T15:57:57+03:00
-eventStartDate: 2017-11-29T18:00:57+03:00
-eventEndDate: 2017-11-29T21:30:57+03:00
+date: 2017-11-29T18:00:57+03:00
+eventStartDate: 2017-11-29T15:00:57.000Z
+eventEndDate: 2017-11-29T18:30:57.000Z
 description: Создайте свою волшебную красавицу!
 image: /images/uploads/DSCF3928_.jpg
 ---
@@ -14,6 +14,7 @@ image: /images/uploads/DSCF3928_.jpg
 ![мастер-класс](/images/uploads/DSCF3937_.jpg)
 
 ![мастер-класс](/images/uploads/DSCF3956_.jpg)
+
 
 
 
