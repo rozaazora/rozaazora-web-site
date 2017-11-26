@@ -1,0 +1,42 @@
+{{ partial "head" . }}
+<div class="ra-page-top ra-page-top--inner">
+    <video class="ra-video-bg" loop muted>
+        <source src="/video/blog-intro.mp4" type="video/mp4">
+    </video>
+    <h1 class="ra-page-title">
+        Контакты
+    </h1>
+</div>
+
+<div class="ra-contacts">
+    <div class="ra-contacts__content">
+        <h3>Как я могу получить…?</h3>
+        <p>
+            Для того чтобы записаться на курс, отправьте нам заявку либо позвоните по телефонам указанным ниже. Мы с удовольствием ответим
+            на все Ваши вопросы и расскажем все подробности про обучение. Не стесняйтесь пользоваться формой!
+        </p>
+
+        <div>
+            <h4>Контакты</h4>
+            <p>
+                <a href="mailto:school@rozaazora.by">school@rozaazora.by</a>
+                <br>
+                <a href="tel:+375296043204">+375 29 604 32 04</a>
+                <br>
+                <a href="tel:+375445677777">+375 44 567 77 77</a>
+            </p>
+        </div>
+        <div>
+            <h4>Часы работы</h4>
+            <p>Понедельник – Суббота: с 9 утра до 7 вечера. Воскресенье - выходной</p>
+        </div>
+        <div>
+            <h4>Место нахождения</h4>
+            <p>Беларусь, Минск, Пр-т. Машерова 9, корпус 8 (2 этаж)</p>
+        </div>
+    </div>
+
+    {{ partial "contact-form" . }}
+</div>
+
+{{ partial "footer" . }}

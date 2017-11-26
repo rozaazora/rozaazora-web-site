@@ -1,0 +1,7 @@
+.ra-contacts {
+    padding: 40px 120px;
+
+    & p {
+        max-width: 700px;
+    }
+}
