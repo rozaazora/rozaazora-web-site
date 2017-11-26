@@ -5,7 +5,9 @@ backend:
 
 media_folder: "site/static/images/uploads" # Folder where user uploaded files should go
 public_folder: "/images/uploads"
-
+pluralizelisttitles: false
+paginate: 4
+paginatePath: "page"
 collections: # A list of collections the CMS should be able to edit
   - name: "blog"
     label: "Публикации"
@@ -18,7 +20,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Вводное описание", name: "description", widget: "text"}
       - {label: "Изображение", name: "image", widget: "image", required: false}
       - {label: "Содержимое", name: "body", widget: "markdown"}
-  - name: "event"
+  - name: "events"
     label: "Анонсы"
     folder: "site/content/events"
     create: true

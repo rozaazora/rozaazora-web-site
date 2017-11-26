@@ -1,0 +1,31 @@
+{{ partial "head" . }} {{ partial "ra-site-menu" . }} {{ partial "r2-menu-btn" . }}
+<!-- {{ partial "ra-page-top" (dict "introVideo" "/video/about-us.mp4" "pageTitle" "Блог" "sometext" "inner-page") }} -->
+<div class="ra-page-top ra-page-top--inner">
+  <video class="ra-video-bg" loop muted>
+    <source src="/video/events-intro.mp4" type="video/mp4">
+  </video>
+  <h1 class="ra-page-title">
+    Анонсы
+  </h1>
+</div>
+{{ partial "ra-sticky-menu" . }}
+
+<div class="posts__container">
+    <h1 class="ra-section-title">
+        <span>Ближайшие события в школе</span>
+    </h1>
+  {{ $pag := .Paginate (.Data.Pages) 6 }}
+  <div class="posts__ul">
+    {{ range $pag.Pages }}
+    <div class="posts__li">
+      {{ .Render "li"}}
+    </div>
+    {{ end }}
+  </div>
+  
+
+
+
+</div>
+
+{{ partial "footer" . }}

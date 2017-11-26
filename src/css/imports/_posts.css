@@ -1,13 +1,14 @@
 .posts {
     &__container {
         background-color: var(--catskill-white);
-        padding: 0 40px;
+        padding: 0 160px;
+        padding-top: 40px;
     }
 
     &__ul {
         margin: 0;
         list-style: none;
-        padding-top: 40px;
+
         padding-bottom: 40px;
         padding-left: 50px;
         display: flex;
@@ -19,14 +20,14 @@
         padding: 0 50px;
         display: inline-block;
         vertical-align: top;
-        width: calc(25% + 35px);
+        width: calc(33.33% + 35px);
         background-color: var(--catskill-white);
         box-sizing: border-box;
         position: relative;
         margin-left: -40px;
         z-index: 1;
         transition: transform 0.4s;
-        padding-bottom: 72px;
+        padding-bottom: 92px;
         margin-bottom: 40px;
         &:hover {
             box-shadow: 0 0 10px 1px rgba(0,0,0,0.4);
@@ -79,10 +80,17 @@
         position: absolute;
         left: 0;
         bottom: 0;
+        background-color: #dedede;
+        color: #666;
+        border-bottom: 1px solid #dedede;
         &:hover {
-            border: 0;
+            border-bottom-color: var(--bastilie);
+            color: var(--bastilie);
+        }
 
-            background-color: var(--anakiwa);
+        &:active {
+            background-color: #dedede;
+            color: var(--silver-chalice);
         }
     }
 }
