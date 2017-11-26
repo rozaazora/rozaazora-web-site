@@ -10,10 +10,14 @@
             <div class="home-recent__slide-content">
                 <h2>{{ .Title}}</h2>
                 <h3>{{ .Params.subtitle}}</h3>
+                {{ $startFormatted := (dateFormat "02/01" .Params.eventStartDate)}}
+                {{ $endFormatted := (dateFormat "02/01" .Params.eventEndDate)}}
                 <div class="home-recent__slide-time">
-                    <time datetime="{{ dateFormat "02-01" .Params.eventStartDate }}">{{ dateFormat "02/01" .Params.eventStartDate }}</time>
-                    -
-                    <time datetime="{{ dateFormat "02-01" .Params.eventEndDate }}">{{ dateFormat "02/01" .Params.eventEndDate }}</time>
+                    <time datetime="{{ dateFormat "02-01" .Params.eventStartDate }}">{{ $startFormatted }}</time>
+                    {{ if ne $startFormatted $endFormatted }}
+                        -
+                        <time datetime="{{ dateFormat "02-01" .Params.eventEndDate }}">{{ $endFormatted }}</time>
+                    {{ end }}
                 </div>
                 <div class="home-recent__slide-link">
                     <a href="{{ .Permalink}}">

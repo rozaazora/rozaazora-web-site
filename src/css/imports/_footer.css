@@ -1,0 +1,38 @@
+.ra-footer {
+    display: flex;
+    flex-direction: row;
+    min-height: 400px;
+    background-color: #232323;
+    color: var(--catskill-white);
+    padding: 80px 120px;
+    box-sizing: border-box;
+    &__col {
+        width: 33.33%;
+        padding: 0 20px;
+
+        & a {
+            color: #fff;
+            text-decoration: underline;
+            opacity: 1;
+            transition: opacity 0.4s;
+            &:hover {
+                border: 0;
+                opacity: 0.6;
+            }
+        }
+    }
+
+    &__socials {
+        & a {
+            display: inline-block;
+            opacity: 1;
+            transition: opacity 0.4s;
+            margin-right: 8px;
+            &:hover {
+                opacity: 0.6;
+                border: 0;
+                
+            }
+        }
+    }
+}
