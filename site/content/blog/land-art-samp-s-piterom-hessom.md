@@ -1,7 +1,7 @@
 ---
 title: LandArt Сamp с Питером Хессом
 subtitle: 'Интересно, как сейчас выглядит Ислочь-парк?'
-date: 2017-11-23T13:35:50.465Z
+date: 2017-08-23T16:35:50+03:00
 description: >-
   Мы возвратились к себе. И наши работы, как и мы сами, стали единым целым с
   природой.
@@ -35,5 +35,6 @@ image: /images/uploads/DSC_9000.jpg
 ![landart peter hess](/images/uploads/DSCF5310.jpg)
 
 ![landart peter hess](/images/uploads/DSCF5327.jpg)
+
 
 
