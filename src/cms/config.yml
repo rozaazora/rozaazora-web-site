@@ -27,7 +27,9 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Заголовок", name: "title", widget: "string"}
       - {label: "Подзаголовок", name: "subtitle", widget: "string"}
-      - {label: "Дата и время проведения", name: "event_date", widget: "datetime"}
+      - {label: "Дата публиуации", name: "date", widget: "datetime"}
+      - {label: "Дата и время начала", name: "eventStartDate", widget: "datetime"}
+      - {label: "Дата и время окончания", name: "eventEndDate", widget: "datetime"}
       - {label: "Краткое описание", name: "description", widget: "text"}
       - {label: "Изображение", name: "image", widget: "image", required: false}
       - {label: "Содержимое", name: "body", widget: "markdown"}
@@ -38,7 +40,9 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Заголовок", name: "title", widget: "string"}
       - {label: "Подзаголовок", name: "subtitle", widget: "string"}
-      - {label: "Дата и время проведения", name: "event_date", widget: "datetime"}
+      - {label: "Дата публиуации", name: "date", widget: "datetime"}
+      - {label: "Дата и время начала", name: "eventStartDate", widget: "datetime"}
+      - {label: "Дата и время окончания", name: "eventEndDate", widget: "datetime"}
       - {label: "Краткое описание", name: "description", widget: "text"}
       - {label: "Изображение", name: "image", widget: "image", required: false}
       - {label: "Содержимое", name: "body", widget: "markdown"}
