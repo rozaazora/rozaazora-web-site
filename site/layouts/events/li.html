@@ -4,8 +4,8 @@
   </h2>
   <!-- <h3>{{ .Params.subtitle}}</h3> -->
   <p>
-    <time datetime="{{ dateFormat "02-01-2006" .Params.eventStartDate }}">{{ dateFormat "02-01-2006" .Params.eventStartDate }}</time> - 
-    <time datetime="{{ dateFormat "02-01-2006" .Params.eventEndDate }}">{{ dateFormat "02-01-2006" .Params.eventEndDate }}</time>
+    Начало: <time datetime="{{ dateFormat "02-01-2006 19:30" .Params.eventStartDate }}">{{ dateFormat "02-01-2006 15:04" .Params.eventStartDate }}</time><br>
+    Конец: <time datetime="{{ dateFormat "02-01-2006 19:30" .Params.eventEndDate }}">{{ dateFormat "02-01-2006 15:04" .Params.eventEndDate }}</time>
   </p>
   <p>
     {{ .Description }}
