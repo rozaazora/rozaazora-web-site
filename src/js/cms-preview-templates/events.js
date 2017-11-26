@@ -8,7 +8,7 @@ export default class EventsPreview extends React.Component {
     return <div className="news-page">
       <h1 className="news-page__title">{ entry.getIn(["data", "title"])}</h1>
       <h2 className="news-page__subtitle">{ entry.getIn(["data", "subtitle"])}</h2>
-      <div className="news-page__spublication-date">{ format(entry.getIn(["data", "eventDate"]), "ddd, MMM D, YYYY") }</div>
+      <div className="news-page__spublication-date">{ format(entry.getIn(["data", "eventStartDate"]), "ddd, MMM D, YYYY") }</div>
       <div className="news-page__description">
         <p>{ entry.getIn(["data", "description"])}</p>
       </div>

@@ -1,10 +1,9 @@
 ---
 title: Воркшоп "Моя волшебная елка"
 subtitle: воркшоп в RozaAzora
-eventDate: 
-date: '12/08/2017 9:30 PM'
-eventStartDate: '11/29/2017 6:00 PM'
-eventEndDate: '11/29/2017 6:00 PM'
+date: 2017-11-25T11:57:57.920Z
+eventStartDate: 2017-11-25T11:57:57.920Z
+eventEndDate: 2017-11-25T11:57:57.920Z
 description: Создайте свою волшебную красавицу!
 image: /images/uploads/DSCF3928_.jpg
 ---
