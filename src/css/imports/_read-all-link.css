@@ -1,11 +1,20 @@
 .read-all-link {
-    text-align: right;
+    text-align: center;
     margin-top: 20px;
-
+    margin-bottom: 20px;
+    
+    @media screen and (min-width: 900px) {
+        text-align: right;
+        margin-bottom: 0px;
+    }
     & a {
         color: #666;
         margin-right: 10px;
         border-bottom: 1px solid transparent;
+        font-size: 40px;
+        @media screen and (min-width: 900px) {
+            font-size: .6rem;
+        }
         &:hover {
             color: var(--bastilie);
             border-bottom-color: var(--bastilie);

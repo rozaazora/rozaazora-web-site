@@ -30,11 +30,22 @@
     & .ra-home-title {
         position: absolute;
         padding: 0;
-        top: 50%;
         z-index: 1;
-        margin-top: -134px;
-        width: 100%;
         margin-bottom: 0;
+        width: 320px;
+        left: 50%;
+        margin-left: -160px;
+        top: 110px;
+        margin-top: 0;
+
+        @media screen and (min-width: 900px) {
+            top: 50%;
+            margin-top: -134px;
+            width: 100%;
+            margin-left: 0;
+            left: 0;
+        }
+
         & .ra-home-title__image {
             display: block;
             max-width: 600px;
