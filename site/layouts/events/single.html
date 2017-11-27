@@ -1,4 +1,9 @@
 {{ partial "head" . }}
+<div class="xs-only-visible">
+  {{ partial "ra-site-menu" . }}
+  {{ partial "r2-menu-btn" . }}
+</div>
+
 {{ partial "ra-sticky-menu" . }}
 <div class="blog-post">
   <h1>{{ .Title}}</h1>

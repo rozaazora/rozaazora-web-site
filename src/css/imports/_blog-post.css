@@ -1,26 +1,35 @@
 .blog-post {
     background-color: var(--catskill-white);
-    padding: 20px 160px;
+    padding: 80px 40px 1px;
+    @media screen and (min-width: 900px) {
+        padding-top: 40px;
+        padding: 0 120px;
+    }
     & h1 {
         font-size: 1.5rem;
+        margin: auto;
     }
 
     & img {
         display: block;
         padding: 8px 0;
-        width: 80%;
-        max-width: 700px;
+        width: 100%;
+        @media screen and (min-width: 900px) {
+            max-width: 700px;
+        }
     }
     & p {
         padding: 0.5rem 0;
-        width: 80%;
-
-        & img {
-            width: 100%;
+        margin: auto;
+        width: 100%;
+        @media screen and (min-width: 900px) {
+            max-width: 1000px;
+            margin-left: 0;
         }
     }
 
     & .post__read-more {
         position: relative;
+        
     }
 }

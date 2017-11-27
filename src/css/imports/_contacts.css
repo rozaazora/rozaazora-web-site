@@ -1,7 +1,18 @@
 .ra-contacts {
-    padding: 40px 120px;
-
+    padding: 80px 40px 40px;
+    @media screen and (min-width: 900px) {
+        padding: 40px 120px;
+    }
     & p {
         max-width: 700px;
+    }
+
+    & a {
+        color: #999;
+
+        &:hover {
+            border-color: #232323;
+            color: #232323;
+        }
     }
 }

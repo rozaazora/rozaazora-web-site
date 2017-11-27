@@ -2,7 +2,7 @@
     &__container {
         background-color: var(--catskill-white);
         
-        padding: 80px 30px 1px;
+        padding: 80px 0 1px;
         @media screen and (min-width: 900px) {
             padding-top: 40px;
             padding: 0 120px;
@@ -70,13 +70,18 @@
     & img {
         display: block;
         width: 100%;
-        max-width: 700px;
         margin: 8px 0;
+        @media screen and (min-width: 900px) {
+            max-width: 700px;
+        }
     }
     & p {
         line-height: 1.7;
         padding: 0.5rem 0;
-        width: 80%;
+        width: 100%;
+        @media screen and (min-width: 900px) {
+            max-width: 1000px;
+        }
     }
 
     &__read-more {

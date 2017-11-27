@@ -18,13 +18,17 @@
         width: 100%;
         text-align: center;
         z-index: 1;
-        font-size: 4rem;
+        font-size: 3rem;
         padding: 0;
         line-height: 1;
-        margin-top: -64px;
+        margin-top: -48px;
         color: var(--catskill-white);
         text-shadow: var(--text-shadow);
 
+        @media screen and (min-width: 900px) {
+            font-size: 4rem;
+            margin-top: -64px;
+        }
         
     }
     & .ra-home-title {
