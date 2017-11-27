@@ -124,3 +124,10 @@ li {
 .not-loaded .ra-page-top {
   display: block !important;
 }
+
+.xs-only-visible {
+  visibility: visible;
+  @media screen and (min-width: 900px) {
+    visibility: hidden;
+  }
+}
