@@ -13,6 +13,13 @@ document.addEventListener("DOMContentLoaded", () => {
   let siema;
   let runSi;
 
+  let animationTimeout = 5000;
+
+  if (document.querySelectorAll(".ra-page-loader").length === 0) {
+    animationTimeout = 0;
+  }
+
+
   setTimeout(() => {
 
     body.classList.remove("not-loaded");
@@ -21,13 +28,11 @@ document.addEventListener("DOMContentLoaded", () => {
     menuBtn = document.getElementById("menu_btn");
     parallaxes = document.querySelectorAll(".js-parallax-background");
     moveDecorations = document.querySelectorAll(".js-move-decoration");
-    siemaElement = document.querySelectorAll(".siema");
+    siemaElement = document.querySelectorAll(".siema")[0];
     // video.playbackRate = 0.6;
     if (video != null) {
       video.play();
     }
-
-
     if (siemaElement != null) {
       siema = new Siema({
         loop: true,
@@ -41,10 +46,13 @@ document.addEventListener("DOMContentLoaded", () => {
         });
       };
     }
-
+    if (runSi != null) {
+      setTimeout(() => {
+        runSi();
+      }, 5000);
+    }
     if (menuBtn != null) {
       menuBtn.addEventListener("click", ($event) => {
-        console.log("menu toggle");
         body.classList.toggle("is-menu");
       });
     }
@@ -73,14 +81,6 @@ document.addEventListener("DOMContentLoaded", () => {
       const scrolled = window.pageYOffset || document.documentElement.scrollTop;
       onScrollPrallaxHandler(scrolled);
     });
-
-    if (runSi != null) {
-      setTimeout(() => {
-        runSi();
-      }, 5000);
-    }
-
-
-  }, 4500);
+  }, animationTimeout);
 
 });

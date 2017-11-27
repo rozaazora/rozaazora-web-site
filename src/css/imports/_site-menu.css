@@ -7,15 +7,20 @@
     left: 0;
     top: 0;
     background-color: rgba(255,255,255,0.95);
+    overflow: auto;
     & ul {
         list-style: none;
         text-transform: uppercase;
-        position: absolute;
-        top: 54%;
         transition: top .4s;
-        left: 50%;
-        width: 414px;
-        margin: -301px 0 0 -207px;
+        margin-top: 60px;
+
+        @media screen and (min-width: 900px) {
+            position: absolute;
+            top: 54%;
+            left: 50%;
+            width: 414px;
+            margin: -301px 0 0 -207px;
+        }
     }
     & .no {
         position: absolute;

@@ -1,34 +1,44 @@
 .posts {
     &__container {
         background-color: var(--catskill-white);
-        padding: 0 160px;
-        padding-top: 40px;
+        
+        padding: 80px 30px 1px;
+        @media screen and (min-width: 900px) {
+            padding-top: 40px;
+            padding: 0 120px;
+        }
     }
 
     &__ul {
         margin: 0;
         list-style: none;
-
+        display: block;
         padding-bottom: 40px;
-        padding-left: 50px;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
+
+        @media screen and (min-width: 900px) {
+            padding-left: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
     }
 
     &__li {
         padding: 0 50px;
         display: inline-block;
         vertical-align: top;
-        width: calc(33.33% + 35px);
+        width: 100%;
         background-color: var(--catskill-white);
         box-sizing: border-box;
         position: relative;
-        margin-left: -40px;
         z-index: 1;
         transition: transform 0.4s;
         padding-bottom: 92px;
         margin-bottom: 40px;
+        @media screen and (min-width: 900px) {
+            width: calc(33.33% + 35px);
+            margin-left: -40px;
+        }
         &:hover {
             box-shadow: 0 0 10px 1px rgba(0,0,0,0.4);
             background-color: #fff;
