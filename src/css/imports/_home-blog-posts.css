@@ -1,21 +1,31 @@
 .ra-home-blog-posts {
     text-align: center;
+    padding: 80px 0 1px;
     background-color: #fefefe;
-    padding: 40px 160px;
+    @media screen and (min-width: 900px) {
+        padding: 80px 120px;
+    }
     &__container {
         width: 100%;
-        display: flex;
+        display: block;
         flex-direction: row;
+        @media screen and (min-width: 900px) {
+            display: flex;
+        }
     }
     &__item {
-        width: 33.33%;
+        width: 100%;
         padding: 30px 30px;
         padding-bottom: 66px;
         box-sizing: border-box;
         text-align: left;
-        margin: 0 10px;
+        margin: 0;
         border: 1px solid #ddd;
         position: relative;
+        @media screen and (min-width: 900px) {
+            width: 33.33%;
+            margin: 0 10px;
+        }
         & a {
             background-color: #343434;
             position: absolute;

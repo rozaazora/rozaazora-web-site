@@ -11,8 +11,11 @@
         margin: 0 auto;
         top: 150px;
         color: #fff;
-        font-size: 80px;
+        font-size: 40px;
         z-index: 1;
+        @media screen and (min-width: 900px) {
+            font-size: 80px;
+        }
     }
     & a {
         display: block;
@@ -25,7 +28,7 @@
         top: 350px;
         left: 50%;
         font-size: 30px;
-        margin-left: -120px;
+        margin-left: -130px;
         line-height: 30px;
         padding: 6px 10px;
         background-color: #343434;
