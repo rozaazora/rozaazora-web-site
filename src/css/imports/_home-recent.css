@@ -14,7 +14,7 @@
         max-width: 1170px;
         margin: 0 auto;
 
-        & a {
+        & a.learn-more {
             background-color: #343434;
             color: #fff;
             font-size: 20px;

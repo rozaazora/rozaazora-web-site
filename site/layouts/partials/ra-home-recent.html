@@ -6,21 +6,25 @@
 
         {{ $eventsList := (where .Data.Pages "Type" "events")}} {{ range $eventsList }} {{ .Title}}
         <div class="home-recent__slide">
-            <div class="home-recent__slide-image" style="background-image: url({{ .Params.image}}"></div>
+            <a href="{{ .Permalink}}" class="home-recent__slide-image" style="background-image: url({{ .Params.image}}"></a>
             <div class="home-recent__slide-content">
-                <h2>{{ .Title}}</h2>
-                <h3>{{ .Params.subtitle}}</h3>
-                {{ $startFormatted := (dateFormat "02/01" .Params.eventStartDate)}}
-                {{ $endFormatted := (dateFormat "02/01" .Params.eventEndDate)}}
+                <a href="{{ .Permalink}}" class="invisible-link">
+                    <h2>{{ .Title}}</h2>
+                    <h3>{{ .Params.subtitle}}</h3>
+                    {{ $startFormatted := (dateFormat "02/01" .Params.eventStartDate)}} {{ $endFormatted := (dateFormat "02/01" .Params.eventEndDate)}}
+                </a>
+
                 <div class="home-recent__slide-time">
-                    <time datetime="{{ dateFormat "02-01" .Params.eventStartDate }}">{{ $startFormatted }}</time>
-                    {{ if ne $startFormatted $endFormatted }}
-                        -
-                        <time datetime="{{ dateFormat "02-01" .Params.eventEndDate }}">{{ $endFormatted }}</time>
-                    {{ end }}
+                    <a href="{{ .Permalink}}" class="invisible-link">
+                        <time datetime="{{ dateFormat " 02-01 " .Params.eventStartDate }}">{{ $startFormatted }}</time>
+                        {{ if ne $startFormatted $endFormatted }} -
+                        <time datetime="{{ dateFormat " 02-01 " .Params.eventEndDate }}">{{ $endFormatted }}</time>
+                        {{ end }}
+                    </a>
+
                 </div>
                 <div class="home-recent__slide-link">
-                    <a href="{{ .Permalink}}">
+                    <a class="learn-more" href="{{ .Permalink}}">
                         Узнать больше
                     </a>
                 </div>
