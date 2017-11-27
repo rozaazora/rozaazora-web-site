@@ -6,15 +6,17 @@
         {{ $blogPosts := (where .Data.Pages "Type" "blog")}}
         {{ range (.Paginate ( first 3 $blogPosts.ByDate.Reverse)).Pages }}
             <div class="ra-home-blog-posts__item js-move-decoration">
-                <div class="ra-home-blog-posts__item-image">
+                <a href="{{ .Permalink}}" class="ra-home-blog-posts__item-image">
                     <div style="background-image: url({{ .Params.image }}"></div>
-                </div>
-                <h2>
-                    {{ .Title }}
-                </h2>
-                <p>
-                    {{ .Description }}
-                </p>
+                </a>
+                <a href="{{ .Permalink}}" class="invisible-link">
+                    <h2>
+                        {{ .Title }}
+                    </h2>
+                    <p>
+                        {{ .Description }}
+                    </p>
+                </a>
                 <a href="{{ .Permalink }}">
                     Читать больше
                 </a>

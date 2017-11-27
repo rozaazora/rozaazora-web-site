@@ -131,3 +131,10 @@ li {
     visibility: hidden;
   }
 }
+.invisible-link {
+  color: var(--bastilie);
+  &:hover {
+    color: var(--bastilie);
+    border: 0;
+  }
+}
