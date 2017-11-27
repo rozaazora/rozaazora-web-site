@@ -66,11 +66,15 @@
         text-align: center;
         letter-spacing: 9px;
         line-height: 84px;
-        font-size: 40px;
+        font-size: 24px;
         font-weight: 300;
         font-family: 'Oswald', sans-serif;
         color: var(--text-color);
         border-bottom: 0;
+        @media screen and (min-width: 900px) {
+            font-size: 40px;
+        }
+
         &:active {
             color: var(--link-active-color);
         }
