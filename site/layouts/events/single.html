@@ -10,6 +10,7 @@
   <p>{{ .Description}}</p>
   <img src="{{ .Params.image }}">
   {{ .Content }}
+  {{ partial "contact-form" . }}
   <a href="/events" class="post__read-more">←</a>
 </div>
 {{ partial "footer" . }}
