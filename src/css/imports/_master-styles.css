@@ -133,8 +133,14 @@ li {
 }
 .invisible-link {
   color: var(--bastilie);
+  background-color: transparent;
   &:hover {
     color: var(--bastilie);
+    background-color: transparent;
     border: 0;
   }
+}
+
+iframe {
+    max-width: 100%;
 }
