@@ -1,7 +1,14 @@
 {{ partial "head" . }}
 {{ partial "ra-site-menu" . }}
 {{ partial "r2-menu-btn" . }}
-{{ partial "ra-page-top" (dict "introVideo" "/video/about-us.mp4" "pageTitle" "О нас")}}
+<div class="ra-page-top ra-page-top--inner">
+    <video class="ra-video-bg" loop muted>
+        <source src="/video/about-us.mp4" type="video/mp4">
+    </video>
+    <h1 class="ra-page-title">
+        О нас
+    </h1>
+</div>
 {{ partial "ra-sticky-menu" . }}
 <div class="blog-post">
     <h1>О нас</h1>
