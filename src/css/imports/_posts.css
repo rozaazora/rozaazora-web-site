@@ -75,10 +75,15 @@
             max-width: 700px;
         }
     }
-    & p {
+    & .post__short-content {
+        display: block;
         line-height: 1.7;
         padding: 0.5rem 0;
         width: 100%;
+        color: var(--bastilie);
+        &:hover {
+            border: 0;
+        }
         @media screen and (min-width: 900px) {
             max-width: 1000px;
         }
