@@ -35,7 +35,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Содержимое", name: "body", widget: "markdown"}
   - name: "courses"
     label: "Курсы"
-    folder: "site/content/coursees"
+    folder: "site/content/courses"
     create: true
     fields:
       - {label: "Заголовок", name: "title", widget: "string"}
@@ -46,3 +46,29 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Краткое описание", name: "description", widget: "text"}
       - {label: "Изображение", name: "image", widget: "image", required: false}
       - {label: "Содержимое", name: "body", widget: "markdown"}
+  - name: "galery"
+    label: "Галерея"
+    folder: "site/content/galery"
+    create: true
+    fields:
+      - {label: "Название альбома", name: "title", widget: "string"}
+      - {label: "Описание альбома", name: "description", widget: "string"}
+      - {label: "Дата публиуации", name: "date", widget: "datetime"}
+      - label: "Теги"
+        name: "albumtags"
+        widget: "list"
+        fields:
+          - {label: "Тег", name: "albumtag", widget: "string"}
+      - label: "Медиа контент"
+        name: "item"
+        widget: "list"
+        fields:
+          - {label: "Заголовок", name: "name", widget: "string"}
+          - {label: "Изображение", name: "image", widget: "image", required: false}
+          - {label: "Видео", name: "vid", pattern: /^youtube (\S+)$/, required: false}
+          - label: "Тег"
+            name: "tags"
+            widget: "list"
+            fields:
+              - {label: "Тег", name: "tag", widget: "string"}
+
