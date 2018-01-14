@@ -20,9 +20,9 @@
         box-sizing: border-box;
         text-align: left;
         margin: 0;
-        border: 1px solid #ddd;
         position: relative;
         @media screen and (min-width: 900px) {
+            border: 1px solid #ddd;
             width: 33.33%;
             margin: 0 10px;
         }

@@ -34,10 +34,13 @@
     &__slide-image {
         display: block;
         width: 100%;
-        height: 337px;
-        background-size: cover;
+        padding-bottom: 66.666%;
+        background-size: contain;
+        background-repeat: no-repeat;
         background-position: 50%;
         @media screen and (min-width: 900px) {
+            padding-bottom: 0;
+            height: 337px;
             width: 50%;
             float: left;
         }
@@ -47,8 +50,8 @@
         box-sizing: border-box;
         position: realtive;
         width: 100%;
-        height: 337px;
-        padding: 0 16px;
+        min-height: 337px;
+        padding: 16px;
         background-color: #fff;
         text-align: center;
         @media screen and (min-width: 900px) {

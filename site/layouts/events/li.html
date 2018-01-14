@@ -3,13 +3,15 @@
     <a href="{{ .Permalink }}">{{ .Title }}</a>
   </h2>
   <!-- <h3>{{ .Params.subtitle}}</h3> -->
-  <p>
+  <a  class="post__short-content" href="{{ .Permalink }}">
     Начало: <time datetime="{{ dateFormat "02-01-2006 19:30" .Params.eventStartDate }}">{{ dateFormat "02-01-2006 15:04" .Params.eventStartDate }}</time><br>
     Конец: <time datetime="{{ dateFormat "02-01-2006 19:30" .Params.eventEndDate }}">{{ dateFormat "02-01-2006 15:04" .Params.eventEndDate }}</time>
-  </p>
-  <p>
+  </a>
+  <a class="post__short-content" href="{{ .Permalink }}">
     {{ .Description }}
-  </p>
-  <img src="{{ .Params.image}}">
+  </a>
+  <a href="{{ .Permalink }}">
+    <img src="{{ .Params.image}}">
+  </a>
   <a href="{{ .Permalink }}" class="post__read-more">→</a>
 </div>

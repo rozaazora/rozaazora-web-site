@@ -32,6 +32,10 @@
         animation-duration: 2s;
         animation-fill-mode: forwards;
         white-space: nowrap;
+        font-size: 1rem;
+        @media screen and (min-width: 900px) {
+            font-size: 1.35rem;
+        }
     }
 
     & .pane {
@@ -76,7 +80,10 @@
         right: -100%;
     }
     to {
-        right: 50px;
+        right: 20px;
+        @media screen and (min-width: 900px) {
+            right: 50px;
+        }
     }
 }
 @keyframes widthRemove {
@@ -92,7 +99,10 @@
         left: -100%;
     }
     to {
-        left: 50px;
+        left: 20px;
+        @media screen and (min-width: 900px) {
+            left: 50px;
+        }
     }
 }
 @keyframes fadeOut {
