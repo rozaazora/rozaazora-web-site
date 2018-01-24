@@ -23,5 +23,14 @@ image: /images/uploads/wwAllor9Rpe6qnKIayAQ9A_thumb_30cb.jpg
 
 ![букет в клеевой технике роза азора](/images/uploads/lg412C98SyCghmvnT6L9ow_thumb_30e9 копия.jpg)
 
+![клеевая техника роза азора](/images/uploads/DSC_0038.jpg)
+
+![клеевая техника роза азора](/images/uploads/DSC_0030.jpg)
+
+![клеевая техника роза азора](/images/uploads/DSC_0048 копия.jpg)
+
+![клеевая техника роза азора](/images/uploads/DSC_0055 копия.jpg)
+
 Фото: Наталья Волк
+
 
