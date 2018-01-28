@@ -2,8 +2,8 @@
 title: Воркшоп "Мая вясна"
 subtitle: 'Встречаем весну вместе! '
 date: 2018-01-28T14:04:00.595Z
-eventStartDate: 2018-03-04T00:00:00+03:00
-eventEndDate: 2018-03-04T15:00:00+03:00
+eventStartDate: 2018-03-03T21:00:00.000Z
+eventEndDate: 2018-03-04T12:00:00.000Z
 description: Весенний фотопроект для самых любимых
 image: >-
   /images/uploads/231-Stupnitskyphoto-MySpring-9-04-2017-Actual(GSP_5955)-ExpX.jpg
@@ -31,5 +31,6 @@ image: >-
 ![роза азора курсы флористики](/images/uploads/033-Stupnitskyphoto-MySpring-9-04-2017-Actual(GSP_4952)-ExpX.jpg)
 
 ![роза азора курсы флористики](/images/uploads/035-Stupnitskyphoto-MySpring-9-04-2017-Actual(GSP_4959)-ExpX.jpg)
+
 
 
