@@ -11,5 +11,5 @@ image: /images/uploads/00 (108)peter.jpg
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s3Kii5-qdIY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-
 Today is a wonderful day! It is a birthday of our Teacher, Master, our unique and beloved[Hess Peter](https://www.facebook.com/hess.peter1?fref=mentions)! We are grateful for the opportunity of learning from Peter and being around him! Every meeting with him is precious for us!We wish Peter good health! He is a citizen of the World and students from all over the Earth love Peter and look forward to the next meeting with him. Congratulations from all over the World fly to Switzerland at this day. Let all these good wishes come true!Happy Birthday our dear Peter!!!
+
