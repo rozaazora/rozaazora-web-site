@@ -2,10 +2,10 @@
 title: Вокршоп "Дела сердечные"
 subtitle: ко Дню святого Валентина
 date: 2018-01-28T12:08:38.614Z
-eventStartDate: 2018-02-11T16:00:38+03:00
-eventEndDate: 2018-02-11T19:00:38+03:00
+eventStartDate: 2018-02-11T13:00:38.000Z
+eventEndDate: 2018-02-11T16:00:38.000Z
 description: Настольная композиция в форме сердца
-image: /images/uploads/131-Stupnitskyphoto-Flowers-20-01-2018-GSP_8862-ExpX-Web.jpg
+image: /images/uploads/воркшоп к 14му+.jpg
 ---
 Когда: 11 февраля, 16.00
 Стоимость: 85 рублей
@@ -22,4 +22,5 @@ image: /images/uploads/131-Stupnitskyphoto-Flowers-20-01-2018-GSP_8862-ExpX-Web.
 Звоните и записывайтесь +37529 604 32 04
 
 Или заполните форму и мы вам обязательно перезвоним! 
+
 
