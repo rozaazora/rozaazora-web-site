@@ -1,4 +1,5 @@
-{{ partial "head" . }}
+{{ $t := (print "Roza Azora: " .Title) }}
+{{ partial "head" (dict "title" $t "description" .Description "image" .Params.image )}}
 <div class="xs-only-visible">
   {{ partial "ra-site-menu" . }}
   {{ partial "r2-menu-btn" . }}

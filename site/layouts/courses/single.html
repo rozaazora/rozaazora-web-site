@@ -1,4 +1,8 @@
-{{ partial "head" . }}
+{{ $t := "Курсы и мастер-классы по флористике"}}
+{{ $d := "Курсы для начинающих, базовый курс флористики, детская флористика, мастер-классы и семинары по флористике, воркшопы"}}
+{{ $i := "/og-image.jpg"}}
+
+{{ partial "head" (dict "title" $t "description" $d "image" $i)}}
 {{ partial "ra-site-menu" . }}
 {{ partial "r2-menu-btn" . }}
 <div class="ra-page-top ra-page-top--inner">

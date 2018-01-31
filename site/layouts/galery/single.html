@@ -1,26 +1,13 @@
 {{ partial "head" (dict "title" "Курсы профессиональной флористики Roza Azora" "description" "Уникальные для Беларуси курсы флористики: опыт зарубежных мастеров, эксклюзивные программы и вдохновляющую атмосферу. Курсы флористики для начинающих" "image" "/og-image.jpg")}}
 {{ partial "ra-site-menu" . }}
 {{ partial "r2-menu-btn" . }}
-<!-- {{ partial "ra-page-top" (dict "introVideo" "/video/about-us.mp4" "pageTitle" "Блог" "sometext" "inner-page") }} -->
 <div class="ra-page-top ra-page-top--inner">
-  <video class="ra-video-bg" loop muted>
-    <source src="/video/about-us.mp4" type="video/mp4">
-  </video>
-  <h1 class="ra-page-title">
-    Блог from default
-  </h1>
+    <video class="ra-video-bg" loop muted>
+        <source src="/video/about-us.mp4" type="video/mp4">
+    </video>
+    <h1 class="ra-page-title">
+        Галерея
+    </h1>
 </div>
 {{ partial "ra-sticky-menu" . }}
-<!-- {{ partial "ra-preload-decoration" . }} -->
-
-<div class="posts__container">
-  <div class="posts__ul">
-      {{ range .Data.Pages }}
-          <div class="posts__li">
-            {{ .Render "li"}}
-          </div>
-      {{ end }}
-  </div>
-</div>
-
 {{ partial "footer" . }}

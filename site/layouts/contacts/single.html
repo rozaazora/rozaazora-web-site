@@ -1,4 +1,7 @@
-{{ partial "head" . }}
+{{ $t := "Адрес и телефон Roza Azora"}}
+{{ $d := "Для того чтобы записаться на курс, отправьте нам заявку либо позвоните по телефонам"}}
+{{ $i := "/og-image.jpg"}}
+{{ partial "head" (dict "title" $t "description" $d "image" $i)}}
 <div class="xs-only-visible">
     {{ partial "ra-site-menu" . }}
     {{ partial "r2-menu-btn" . }}
