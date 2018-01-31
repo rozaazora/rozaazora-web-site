@@ -1,0 +1,38 @@
+.galery-album {
+    display: block;
+    width: 25%;
+    width: 320px;
+    height: 480px;
+    border: 1px solid #ddd;
+    padding-bottom: 30px;
+    position: relative;
+    box-sizing: border-box;
+  }
+  .album-image {
+    height: 384px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+  }
+  .galery-album h2 {
+    display: block;
+    padding: 8px 0 4px;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+  }
+  .galery-album p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 13px;
+  }
+  .galery-album time {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 10px;
+    line-height: 30px;
+    font-size: 14px;
+  }
