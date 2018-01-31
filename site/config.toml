@@ -1,3 +1,5 @@
 baseurl = "/"
 languageCode = "ru-ru"
 title = "Homepage"
+disableSitemap = true
+enableRobotsTXT = true
