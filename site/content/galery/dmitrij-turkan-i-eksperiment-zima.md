@@ -9,7 +9,7 @@ item:
   - name: >-
       Новый формат, неординарное прочтение и завораживающее представление от
       Дмитрия Туркана и учеников Роза Азора
-    vid: 'https://youtu.be/EvJvbyb9dWo'
+    vid: EvJvbyb9dWo
   - image: /images/uploads/Photo_005.jpg
     name: Работа с воском учеников семинара
   - image: /images/uploads/Photo_007.jpg
