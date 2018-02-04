@@ -9,6 +9,6 @@ albumtags:
   - albumtag: ленд-арт
 item:
   - name: Основатель ленд-арта Питер Хесс в Минске в школе Роза Азора
-    vid: 'https://youtu.be/me9yzNRK_ok'
+    vid: me9yzNRK_ok
 ---
 
