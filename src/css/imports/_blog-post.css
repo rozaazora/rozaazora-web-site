@@ -10,7 +10,8 @@
         margin: auto;
     }
 
-    & img {
+
+    & img, & iframe {
         display: block;
         padding: 8px 0;
         width: 100%;
