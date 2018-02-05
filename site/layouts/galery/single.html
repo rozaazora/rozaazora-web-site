@@ -12,13 +12,11 @@
     
     {{ range .Params.item }}
         <p>
-            <h5>{{ .name}}</h5>
             {{ if .image }}
                 <img src="{{ .image }}" alt=".name">
             {{ else }}
                 <iframe class="album-vid" src="https://www.youtube.com/embed/{{ .vid}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             {{ end }}
-        {{ .}}
         </p>
 
     {{ end }}
