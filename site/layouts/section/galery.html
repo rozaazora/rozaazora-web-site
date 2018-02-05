@@ -1,0 +1,32 @@
+{{ $t := "Галерея школы флористики Roza Azora"}}
+{{ $d := "Уникальные для Беларуси школа флористики: опыт зарубежных мастеров, эксклюзивные программы и вдохновляющая атмосфера. Курсы флористики для начинающих."}}
+{{ $i := "/og-image.jpg"}}
+{{ partial "head" (dict "title" $t "description" $d "image" $i)}}
+{{ partial "ra-site-menu" . }}
+{{ partial "r2-menu-btn" . }}
+<div class="ra-page-top ra-page-top--inner">
+    <video class="ra-video-bg" loop muted>
+        <source src="/video/about-us.mp4" type="video/mp4">
+    </video>
+    <h1 class="ra-page-title">
+        Галерея
+    </h1>
+</div>
+{{ partial "ra-sticky-menu" . }}
+
+<div class="posts__container">
+    <h1 class="ra-section-title">
+        <span>Архив школы флористики Roza Azora</span>
+    </h1>
+  {{ $pag := .Paginate (.Data.Pages) 6 }}
+  <div class="posts__ul">
+    {{ range $pag.Pages }}
+    <div class="posts__li">
+        {{ .Render "li"}}
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+
+{{ partial "footer" . }}

@@ -1,13 +1,28 @@
-{{ partial "head" (dict "title" "Курсы профессиональной флористики Roza Azora" "description" "Уникальные для Беларуси курсы флористики: опыт зарубежных мастеров, эксклюзивные программы и вдохновляющую атмосферу. Курсы флористики для начинающих" "image" "/og-image.jpg")}}
-{{ partial "ra-site-menu" . }}
-{{ partial "r2-menu-btn" . }}
-<div class="ra-page-top ra-page-top--inner">
-    <video class="ra-video-bg" loop muted>
-        <source src="/video/about-us.mp4" type="video/mp4">
-    </video>
-    <h1 class="ra-page-title">
-        Галерея
-    </h1>
+{{ $t := (print "Галерея Roza Azora: " .Title) }}
+{{ partial "head" (dict "title" $t "description" .Description "image" .Params.image )}}
+<div class="xs-only-visible">
+  {{ partial "ra-site-menu" . }}
+  {{ partial "r2-menu-btn" . }}
 </div>
+
 {{ partial "ra-sticky-menu" . }}
+<div class="blog-post">
+  <h1>{{ .Title}}</h1>
+  <p>{{ .Description}}</p>
+    
+    {{ range .Params.item }}
+        <p>
+            <h5>{{ .name}}</h5>
+            {{ if .image }}
+                <img src="{{ .image }}" alt=".name">
+            {{ else }}
+                <iframe class="album-vid" src="https://www.youtube.com/embed/{{ .vid}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            {{ end }}
+        {{ .}}
+        </p>
+
+    {{ end }}
+  {{ partial "contact-form" . }}
+  <a href="/galery" class="post__read-more">←</a>
+</div>
 {{ partial "footer" . }}

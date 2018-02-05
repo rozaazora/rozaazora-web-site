@@ -1,6 +1,28 @@
-<div class="galery-album">
+<!-- <div class="galery-album">
     <div class="album-image" style="background-image: url(./Prototype/src/assets/images/lands/city-of-brass.jpg)"></div>
     <h2>City of Brass</h2>
     <p>The land of all lands</p>
     <time>30/02/2018</time>
+</div> -->
+<!-- {{ $i := index .Params.item 0 }}
+<div class="galery-album">
+
+    <iframe class="album-vid" src="https://www.youtube.com/embed/EvJvbyb9dWo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <p>{{.Params.description}}</p>
+</div> -->
+
+{{ $i := index .Params.item 0 }}
+<div class="post">
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    {{ if $i.image }}
+    <h1 class="ra-page-title">
+        <a href="{{ .Permalink }}"><img src="{{ $i.image}}" alt="{{ $i.name}}"></a>
+    </h1>
+    {{ else }}
+        <a href="{{ .Permalink }}"><iframe class="album-vid" src="https://www.youtube.com/embed/{{ $i.vid}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></a>
+    {{ end }}
+    <a class="post__short-content" href="{{ .Permalink }}">{{ .Description }}</a>
+
+    
+    <a href="{{ .Permalink }}" class="post__read-more">→</a>
 </div>

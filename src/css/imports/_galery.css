@@ -14,6 +14,11 @@
     background-size: cover;
     background-position: 50%;
   }
+  .album-vid {
+    display: block ;
+    width: 100%;
+    height: 384px;
+  }
   .galery-album h2 {
     display: block;
     padding: 8px 0 4px;
@@ -22,7 +27,7 @@
     text-align: center;
   }
   .galery-album p {
-    padding: 0;
+    padding: 0 10px;
     margin: 0;
     text-align: center;
     font-size: 13px;
