@@ -1,14 +1,14 @@
 ---
 title: Фотопроект "Мая вясна"
 subtitle: 'Встречаем весну вместе! '
-date: 2018-02-01T10:00:00+03:00
-eventStartDate: 2018-03-04T12:00:00+03:00
-eventEndDate: 2018-03-04T12:00:00.000Z
+date: 2018-02-01T07:00:00.000Z
+eventStartDate: 2018-03-17T12:00:00+03:00
+eventEndDate: 2018-03-17T15:00:00+03:00
 description: Весенний воркшоп для самых любимых
 image: >-
   /images/uploads/231-Stupnitskyphoto-MySpring-9-04-2017-Actual(GSP_5955)-ExpX.jpg
 ---
-Когда: 4 марта, 12.00
+Когда: 17 марта, 12.00
 
 Стоимость: 100 рублей
 
