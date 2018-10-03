@@ -11,7 +11,7 @@
         display: block;
     }
 
-    &__item {
+    & .sticky-menu__item {
         font-size: 20px;
         display: inline-block;
         padding: 20px 32px;
