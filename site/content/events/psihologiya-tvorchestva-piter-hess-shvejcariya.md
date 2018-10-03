@@ -3,7 +3,7 @@ title: Психология творчества / Питер Хесс (Швей
 subtitle: Часть 1
 date: 2018-10-03T06:30:00.000Z
 eventStartDate: 2018-10-08T06:30:00.000Z
-eventEndDate: 2018-10-09T18:30:00.000Z
+eventEndDate: 2018-10-10T18:30:00.000Z
 description: 'Курс-открытие себя, источников вдохновения, своих настоящих чувств!'
 image: /images/uploads/00 (108)peter.jpg
 ---
