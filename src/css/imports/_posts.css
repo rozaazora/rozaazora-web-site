@@ -1,5 +1,5 @@
 .posts {
-    &__container {
+    & .posts__container {
         background-color: var(--catskill-white);
         
         padding: 80px 0 1px;
@@ -9,7 +9,7 @@
         }
     }
 
-    &__ul {
+    & .posts__ul {
         margin: 0;
         list-style: none;
         display: block;
@@ -23,7 +23,7 @@
         }
     }
 
-    &__li {
+    & .posts__li {
         padding: 0 50px;
         display: inline-block;
         vertical-align: top;
@@ -89,7 +89,7 @@
         }
     }
 
-    &__read-more {
+    & .post__read-more {
         font-size: 1.5rem;
         padding: 0 16px;
         display: block;

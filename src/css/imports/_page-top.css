@@ -4,7 +4,7 @@
     position: relative;
     background-color: #fff;
 
-    &--inner {
+    & .ra-page-top--inner {
         height: 400px;
     }
 

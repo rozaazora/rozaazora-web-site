@@ -5,7 +5,7 @@
     @media screen and (min-width: 900px) {
         padding: 80px 120px;
     }
-    &__container {
+    & .ra-home-blog-posts__container {
         width: 100%;
         display: block;
         flex-direction: row;
@@ -13,7 +13,7 @@
             display: flex;
         }
     }
-    &__item {
+    & .ra-home-blog-posts__item {
         width: 100%;
         padding: 30px 30px;
         padding-bottom: 66px;
@@ -42,7 +42,7 @@
         }
     }
 
-    &__item-image {
+    & .ra-home-blog-posts__item-image {
         display: block;
         position: relative;
         overflow: hidden;

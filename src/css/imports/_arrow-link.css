@@ -47,7 +47,7 @@
         width: calc(100% - var(--margin-base) * 2);
     }
 
-    &--bastilie {
+    & .arrow-link--bastilie {
         color: var(--bastilie);
         & span {
             border-left-color: var(--bastilie);

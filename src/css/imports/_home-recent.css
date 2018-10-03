@@ -9,7 +9,7 @@
         text-align: center;
         margin-bottom: 30px;
     }
-    &__slider {
+    & .home-recent__slider {
         display: block;
         max-width: 1170px;
         margin: 0 auto;
@@ -26,12 +26,12 @@
             }
         }
     }
-    &__slide:after {
+    & .home-recent__slide:after {
         content: '';
         display: table;
         clear: both;
     }
-    &__slide-image {
+    & .home-recent__slide-image {
         display: block;
         width: 100%;
         padding-bottom: 66.666%;
@@ -45,7 +45,7 @@
             float: left;
         }
     }
-    &__slide-content {
+    & .home-recent__slide-content {
         display: block;
         box-sizing: border-box;
         position: realtive;
@@ -59,7 +59,7 @@
             float: left;
         }
     }
-    &__slide-link {
+    & .home-recent__slide-link {
         padding-top: 20px;
     }
 

@@ -1,7 +1,7 @@
 .point-of-intrest {
     position: relative;
     overflow: hidden;
-    &__time {
+    & .point-of-intrest__time {
         position: absolute;
         z-index: 2;
         text-align: center;

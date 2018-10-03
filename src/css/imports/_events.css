@@ -1,5 +1,5 @@
 .events {
-    &__container {
+    & .events__container {
         background-color: var(--catskill-white);
         padding: 40px 160px;
     }

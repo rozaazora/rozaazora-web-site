@@ -2,13 +2,13 @@
     padding:  0 calc(80px + var(--padding-base)) 120px calc(80px + var(--padding-base));
     background-color: var(--catskill-white);
     padding-top: 120px;
-    &__item {
+    & .home-menu__item {
         width: 100%;
         height: 422px;
         margin-bottom: var(--padding-base);
     }
 
-    &__row {
+    & .home-menu__row {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
