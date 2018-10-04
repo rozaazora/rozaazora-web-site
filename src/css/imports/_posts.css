@@ -44,7 +44,7 @@
     }
 }
 
-.posts__li .post {
+.post {
     & h2 {
         font-size: 1rem;
         & a {
@@ -82,7 +82,7 @@
             max-width: 1000px;
         }
     }
-    &__read-more {
+    & .post__read-more {
         font-size: 1.5rem;
         padding: 0 16px;
         display: block;
