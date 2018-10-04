@@ -1,24 +1,18 @@
-.posts .posts__container {
+.posts__container {
     background-color: var(--catskill-white);
     padding: 80px 0 1px;
-}
-
-@media screen and (min-width: 900px) {
-    .posts .posts__container {
+    @media screen and (min-width: 900px) {
         padding-top: 40px;
         padding: 0 120px;
     }
 }
 
-.posts .posts__ul {
+.posts__ul {
     margin: 0;
     list-style: none;
     display: block;
     padding-bottom: 40px;
-}
-
-@media screen and (min-width: 900px) {
-    .posts .posts__ul {
+    @media screen and (min-width: 900px) {
         padding-left: 50px;
         display: flex;
         flex-wrap: wrap;
@@ -26,7 +20,7 @@
     }
 }
 
-.posts .posts__li {
+.posts__li {
     padding: 0 50px;
     display: inline-block;
     vertical-align: top;
@@ -38,19 +32,16 @@
     transition: transform 0.4s;
     padding-bottom: 92px;
     margin-bottom: 40px;
-}
-
-@media screen and (min-width: 900px) {
-    .posts .posts__li {
+    @media screen and (min-width: 900px) {
         width: calc(33.33% + 35px);
         margin-left: -40px;
     }
-}
-.posts .posts__li:hover {
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4);
-    background-color: #fff;
-    transform: scale(1.02);
-    z-index: 2;
+    &:hover {
+        box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4);
+        background-color: #fff;
+        transform: scale(1.02);
+        z-index: 2;
+    }
 }
 
 .post {
@@ -91,7 +82,7 @@
             max-width: 1000px;
         }
     }
-    & .post__read-more {
+    &__read-more {
         font-size: 1.5rem;
         padding: 0 16px;
         display: block;
