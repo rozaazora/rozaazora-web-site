@@ -115,6 +115,10 @@ li {
   }
 }
 
+em {
+  font-style: italic;
+}
+
 .not-loaded > * {
   display: none !important;
 }
