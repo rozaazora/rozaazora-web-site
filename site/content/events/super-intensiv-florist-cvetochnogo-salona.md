@@ -5,7 +5,7 @@ date: 2018-04-21T06:30:24.000Z
 eventStartDate: 2018-11-21T06:30:24.000Z
 eventEndDate: 2018-11-25T14:30:24.000Z
 description: 'Пять дней непрерывной теории и практики! '
-image: /images/uploads/DSCF1213.jpg
+image: /images/uploads/intensiv_start.jpg
 ---
 Следующие наборы:
 
