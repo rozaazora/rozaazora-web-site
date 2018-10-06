@@ -10,7 +10,7 @@ paginate: 4
 paginatePath: "page"
 collections: # A list of collections the CMS should be able to edit
   - name: "blog"
-    label: "Публикации"
+    label: "Блог"
     folder: "site/content/blog"
     create: true
     fields:
