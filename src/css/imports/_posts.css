@@ -82,27 +82,28 @@
             max-width: 1000px;
         }
     }
-    & .post__read-more {
-        font-size: 1.5rem;
-        padding: 0 16px;
-        display: block;
-        width: 60px;
-        margin-right: auto;
-        border: 0;
-        text-align: center;
-        position: absolute;
-        left: 0;
-        bottom: 0;
+}
+
+.post__read-more {
+    font-size: 1.5rem;
+    padding: 0 16px;
+    display: block;
+    width: 60px;
+    margin-right: auto;
+    border: 0;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #dedede;
+    color: #666;
+    border-bottom: 1px solid #dedede;
+    &:hover {
+        border-bottom-color: var(--bastilie);
+        color: var(--bastilie);
+    }
+    &:active {
         background-color: #dedede;
-        color: #666;
-        border-bottom: 1px solid #dedede;
-        &:hover {
-            border-bottom-color: var(--bastilie);
-            color: var(--bastilie);
-        }
-        &:active {
-            background-color: #dedede;
-            color: var(--silver-chalice);
-        }
+        color: var(--silver-chalice);
     }
 }
