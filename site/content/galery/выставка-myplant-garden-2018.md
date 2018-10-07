@@ -8,6 +8,9 @@ description: >-
 date: 2018-05-15T18:22:07.393Z
 albumtags: []
 item:
+  - image: /images/uploads/milan10_start.jpg
+    name: Букет для презентации школы Роза Азора
+    tags: []
   - image: /images/uploads/milan1.jpg
     name: 'Выставочная экспозиция школы Роза Азора '
   - image: /images/uploads/milan2.jpg
