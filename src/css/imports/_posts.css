@@ -59,7 +59,8 @@
     & time {
         font-size: 0.5rem;
         letter-spacing: 3px;
-        color: var(--silver-chalice);
+        
+        color: var(--bastilie);
     }
     & img {
         display: block;
@@ -75,6 +76,20 @@
         padding: 0.5rem 0;
         width: 100%;
         color: var(--bastilie);
+        &:hover {
+            border: 0;
+        }
+        @media screen and (min-width: 900px) {
+            max-width: 1000px;
+        }
+    }
+
+    & .post__short-content-time {
+        display: block;
+        line-height: 1.7;
+        padding: 0.5rem 0;
+        width: 100%;
+        color: var(--silver-chalice);
         &:hover {
             border: 0;
         }
