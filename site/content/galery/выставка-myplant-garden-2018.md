@@ -29,6 +29,10 @@ item:
     name: Букет на каркасе из пластика
   - image: /images/uploads/milan13.jpg
     name: Букет на каркасе для презентации школы
+  - image: /images/uploads/milan9.jpg
+    name: Букет на каркасе из берграса
+  - image: /images/uploads/milan8.jpg
+    name: Даша Чухнова и цветочная корона
   - image: /images/uploads/milan3.jpg
     name: 'Образ модели, подготовленный для дефиле нашей командой'
   - image: /images/uploads/milan16.jpg
