@@ -19,7 +19,7 @@ _Стоимость: 135 бел.руб (все материалы включен
 
 ![рождественкий венок, новгодний венок, Роза Азора](/images/uploads/venki_dscf6252.jpg)
 
-![](/images/uploads/venki_dscf6186.jpg)
+![рождественский венок, новогодний венок, Роза Азора](/images/uploads/venki_dscf6186.jpg)
 
 ![рождественский венок](/images/uploads/DSCF6304.jpg)
 
