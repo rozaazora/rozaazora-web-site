@@ -5,7 +5,7 @@ date: 2018-11-14T15:00:00.000Z
 eventStartDate: 2018-12-16T15:00:00.000Z
 eventEndDate: 2018-12-16T18:00:00.000Z
 description: Самый теплый и уютный рождественский воркшоп
-image: /images/uploads/DSCF3945_.jpg
+image: /images/uploads/kompoz_dscf3945.jpg
 ---
 _Когда: 16 декабря 12.00_
 
