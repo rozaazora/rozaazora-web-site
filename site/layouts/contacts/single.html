@@ -35,25 +35,34 @@
                 <a href="tel:+375447687777">+375 44 768 77 77</a>
             </p>
         </div>
+
+    </div>
+
+    {{ partial "contact-form" . }}
+    <div class="ra-contacts__content">
         <div>
             <h4>Адрес</h4>
             <p>Беларусь, Минск, Пр-т. Машерова 9, корпус 8 (2 этаж)</p>
         </div>
     </div>
-
-    {{ partial "contact-form" . }}
 </div>
-<div id="map" style="height: 50vh;"></div>
+<div id="map" style="width: 100%; height: 50vh;"></div>
+<script
+    src="https://api-maps.yandex.ru/2.1/?apikey=58fa6283-2035-4b80-9252-105c1b606b1c&lang=ru_RU"></script>
+</script>
 <script>
+    ymaps.ready(initMap);
+    var myMap,
+        myPlacemark;
     function initMap() {
-        var uluru = {lat: 53.915310, lng: 27.572675};
-        var map = new google.maps.Map(
-            document.getElementById('map'), {zoom: 17, center: uluru});
-        var marker = new google.maps.Marker({position: uluru, map: map});
+        myMap = new ymaps.Map("map", {
+            center: [53.915310, 27.572675],
+            zoom: 17
+        });
+        myPlacemark = new ymaps.Placemark([53.915310, 27.572675], { hintContent: 'Rozaazora', balloonContent: 'Школа профессиональной флористики' });
+        myMap.geoObjects.add(myPlacemark);
     }
 </script>
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7jMdXsEmR_W145BXLOD2gtGv9buOjwUY&callback=initMap">
-</script>
+
 
 {{ partial "footer" . }}
