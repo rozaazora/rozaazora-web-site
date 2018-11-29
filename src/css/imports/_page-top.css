@@ -3,7 +3,6 @@
     overflow: hidden;
     position: relative;
     background-color: #fff;
-
     & .ra-page-top--inner {
         height: 400px;
     }
@@ -88,4 +87,23 @@
         background-color: rgba(0,0,0,0.14);
         z-index: 0;
     }
+}
+
+.ra-page-top.as-image {
+    height: 100vh;
+}
+@media screen and (min-width: 900px) {
+    .ra-page-top.as-image {
+        height: calc(100vh - 71px);
+    }
+}
+.ra-page-image-top {
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
 }
