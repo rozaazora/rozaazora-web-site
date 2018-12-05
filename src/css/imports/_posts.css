@@ -22,6 +22,7 @@
 
 .posts__li {
     padding: 0 50px;
+    padding-top: 50px;
     display: inline-block;
     vertical-align: top;
     width: 100%;
@@ -121,4 +122,15 @@
         background-color: #dedede;
         color: var(--silver-chalice);
     }
+}
+
+.posts__li .image-link:hover {
+    text-decoration: none;
+}
+
+.posts__li .image-link {
+    width: 100%;
+    padding-top: 66%;
+    background-size: cover;
+    display: block;
 }

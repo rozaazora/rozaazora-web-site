@@ -1,5 +1,5 @@
 <div class="post">
-  <a class="image-link" href="{{ .Permalink }}" style="background-image: url({{ .Params.image}}); width: 100%; padding-top: 30%; background-size: cover;"></a>
+  <a class="image-link" href="{{ .Permalink }}" style="background-image: url({{ .Params.image}});"></a>
   <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
   <!-- <h3>{{ .Params.subtitle}}</h3> -->
   <a class="post__short-content" href="{{ .Permalink }}"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02-01-2006" }}</time> - {{ .Description }}</a>
