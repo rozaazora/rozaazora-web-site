@@ -15,10 +15,10 @@
 <div class="post">
     {{ if $i.image }}
     <h1 class="ra-page-title">
-        <a class="image-link" href="{{ .Permalink }}" style="background-image: url({{ .Params.image}});"></a>
+        <a class="image-link" href="{{ .Permalink }}" style="background-image: url({{ $i.image }});"></a>
     </h1>
     {{ else }}
-        <a href="{{ .Permalink }}"><iframe class="album-vid" src="https://www.youtube.com/embed/{{ $i.vid}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></a>
+        <a class="iframe-link" href="{{ .Permalink }}"><iframe class="album-vid" src="https://www.youtube.com/embed/{{ $i.vid}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></a>
     {{ end }}
     <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
     <a class="post__short-content" href="{{ .Permalink }}">{{ .Description }}</a>
