@@ -14,7 +14,7 @@
 {{ $i := index .Params.item 0 }}
 <div class="post">
     {{ if $i.image }}
-    <h1 class="ra-page-title">
+    <h1 class="ra-page-title is-no-padding">
         <a class="image-link" href="{{ .Permalink }}" style="background-image: url({{ $i.image }});"></a>
     </h1>
     {{ else }}

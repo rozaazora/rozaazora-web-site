@@ -30,6 +30,9 @@
         }
         
     }
+    & .ra-page-title.is-no-padding {
+        padding-top: 0;
+    }
     & .ra-home-title {
         position: absolute;
         padding: 0;
