@@ -8,6 +8,8 @@ description: >-
 date: 2018-05-15T18:22:07.393Z
 albumtags: []
 item:
+  - image: /images/uploads/2018-12-05-23.19.07.jpg
+    name: Милан
   - image: /images/uploads/milan10_start.jpg
     name: Букет для презентации школы Роза Азора
     tags: []
