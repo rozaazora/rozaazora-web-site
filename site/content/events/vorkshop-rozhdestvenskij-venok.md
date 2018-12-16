@@ -2,8 +2,8 @@
 title: Воркшоп "Рождественский венок"
 subtitle: зимняя флористика
 date: 2018-11-14T09:00:00.000Z
-eventStartDate: 2018-12-05T09:00:00.000Z
-eventEndDate: 2018-12-05T12:00:00.000Z
+eventStartDate: 2018-12-19T09:00:00.000Z
+eventEndDate: 2018-12-19T12:00:00.000Z
 description: Время создать свою рождественскую ароматную историю!
 image: /images/uploads/venki_obl_dscf6241.jpg
 ---
