@@ -1,5 +1,5 @@
 ---
-title: LandArt 2017 с Питером Хессом
+title: LandArt 2016 с Питером Хессом
 description: Встреча с великом мастером
 date: 2018-02-04T17:50:09.034Z
 albumtags:
