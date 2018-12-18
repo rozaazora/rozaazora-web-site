@@ -1,6 +1,6 @@
 ---
 title: Выставка "Myplant & Garden"-2018
-description: Школа Роза Азора была  в Милане
+description: Школа Роза Азора в Милане
 date: 2018-05-15T18:22:07.393Z
 albumtags:
   - albumtag: выставка
