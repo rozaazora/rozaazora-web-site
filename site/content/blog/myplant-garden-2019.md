@@ -57,3 +57,27 @@ Va, pensiero, sull’ali dorate...
 ![Myplant & Garden](/images/uploads/plant13.jpg)
 
 ![Myplant & Garden](/images/uploads/plant14.jpg)
+
+Поездки на международные события - это не только незабываемый опыт, но и удивительные знакомства. 
+
+В этом году на выставке команда RozaAzora познакомилась с множеством талантливых и интересных флористов, дизайнеров из разных сфер, фотографов и просто замечательных людей, посещавших выставку и знакомившихся с нами около стенда или после показов.
+
+И благодаря знакомству с итальянским фотографом [Max Bassi](https://www.facebook.com/massimiliano.bassi.7946?__tn__=K-R&eid=ARCjHkyDmX76JVtarVjgt-gJOJ68wGCJKOC08t11j7C1s6L9DzoBzigR5qslskYyAtG9aHH3IKPacC7V&fref=mentions), у вас есть уникальная возможность во всех тонкостях рассмотреть работы нашей команды.
+
+![Myplant & Garden](/images/uploads/plant21.jpg "Myplant & Garden")
+
+![Myplant & Garden](/images/uploads/plant22.jpg "Myplant & Garden")
+
+![Myplant & Garden](/images/uploads/plant23.jpg "Myplant & Garden")
+
+![Myplant & Garden](/images/uploads/plant24.jpg "Myplant & Garden")
+
+![Myplant & Garden](/images/uploads/plant25.jpg "Myplant & Garden")
+
+![Myplant & Garden](/images/uploads/plant26.jpg "Myplant & Garden")
+
+![Myplant & Garden](/images/uploads/plant27.jpg "Myplant & Garden")
+
+![Myplant & Garden](/images/uploads/plant29.jpg "Myplant & Garden")
+
+![Myplant & Garden](/images/uploads/plant30.jpg "Myplant & Garden")
