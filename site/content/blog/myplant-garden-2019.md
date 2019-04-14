@@ -81,3 +81,31 @@ Va, pensiero, sull’ali dorate...
 ![Myplant & Garden](/images/uploads/plant29.jpg "Myplant & Garden")
 
 ![Myplant & Garden](/images/uploads/plant30.jpg "Myplant & Garden")
+
+
+
+## Шоу-показ
+
+Каждый год на выставке команды проводят шоу-показ в коллаборации с молодыми итальянскими дизайнерами из академии IFDA Italian Fashion & Design Academy .
+
+Команда RozaAzora сотрудничала с двумя дизайнерами и очаровательной моделью Odobescu Daniela. К слову, красивый выход модели - это уже половина успеха. Выражаем Дане огромную благодарность за эффектную и артистичную презентацию наших нарядов!
+
+Результат - два совершенно разных дизайна платья, объединенных одними связующими шелковыми элементами.
+
+Как быстро летит время! Уже месяц прошёл, а мы всё ещё словно и не улетали из прекрасной Италии.
+
+Пока мечтаем о возвращении, вам предлагаем оценить наши цветочные платья.
+
+![Myplant & Garden](/images/uploads/plant31.jpg "Myplant & Garden")
+
+![Myplant & Garden](/images/uploads/plant32.jpg "Myplant & Garden")
+
+![Myplant & Garden](/images/uploads/plant33.jpg "Myplant & Garden")
+
+![Myplant & Garden](/images/uploads/plant35.jpg "Myplant & Garden")
+
+![Myplant & Garden](/images/uploads/plant36.jpg "Myplant & Garden")
+
+![Myplant & Garden](/images/uploads/plant37.jpg "Myplant & Garden")
+
+![Myplant & Garden](/images/uploads/plant39.jpg "Myplant & Garden")
