@@ -32,4 +32,13 @@
     & .post__read-more {
         position: relative;
     }
+
+    &.payments {
+        b {
+            font-weight: bold;
+        }
+        ol {
+            list-style: decimal;
+        }
+    }
 }
