@@ -32,11 +32,8 @@ gulp.task("cms", () => {
     .pipe(browserSync.stream());
   gulp.src(["./node_modules/netlify-cms/dist/*.*", "!./node_modules/netlify-cms/dist/*.html"])
     .pipe(gulp.dest("./dist"))
-    .pipe(browserSync.stream())
+    .pipe(browserSync.stream());
 });
-
-gulp.task("build", ["css", "js", "hugo", "cms"]);
-gulp.task("build-preview", ["css", "js", "hugo-preview"]);
 
 gulp.task("css", () => (
   gulp.src("./src/css/*.css")
@@ -63,6 +60,9 @@ gulp.task("js", (cb) => {
   });
 });
 
+gulp.task("build", gulp.series("css", "js", "hugo", "cms"));
+gulp.task("build-preview", gulp.series("css", "js", "hugo-preview"));
+
 gulp.task("svg", () => {
   const svgs = gulp
     .src("site/static/img/icons/*.svg")
@@ -79,18 +79,20 @@ gulp.task("svg", () => {
     .pipe(gulp.dest("site/layouts/partials/"));
 });
 
-gulp.task("server", ["hugo", "css", "js", "svg", "cms"], () => {
+gulp.task("server", gulp.series("hugo", "css", "js", "svg", "cms", (done) => {
   browserSync.init({
     server: {
       baseDir: "./dist"
-    }
+    },
   });
-  gulp.watch("./src/js/**/*.js", ["js"]);
-  gulp.watch("./src/css/**/*.css", ["css"]);
-  gulp.watch("./src/cms/*", ["cms"]);
-  gulp.watch("./site/static/img/icons/*.svg", ["svg"]);
-  gulp.watch("./site/**/*", ["hugo"]);
-});
+  gulp.watch("./src/js/**/*.js", gulp.series("js"));
+  gulp.watch("./src/css/**/*.css", gulp.series("css"));
+  gulp.watch("./src/cms/*", gulp.series("cms"));
+  gulp.watch("./site/static/img/icons/*.svg", gulp.series("svg"));
+  gulp.watch("./site/**/*", gulp.series("hugo"));
+
+  done();
+}));
 
 function buildSite(cb, options) {
   const args = options ? defaultArgs.concat(options) : defaultArgs;
