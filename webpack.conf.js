@@ -1,5 +1,6 @@
 import webpack from "webpack";
 import path from "path";
+const TerserPlugin = require('terser-webpack-plugin');
 
 export default {
   module: {
@@ -40,4 +41,17 @@ export default {
     filename: "[name].js",
   },
   externals: [/^vendor\/.+\.js$/],
+  mode: "production",
+  optimization: {
+    minimizer: [
+      new TerserPlugin({
+        sourceMap: false,
+        extractComments: true,
+        cache: true,
+        parallel: true,
+      }),
+    ],
+    nodeEnv: 'production'
+  },
+  devtool: false,
 };
