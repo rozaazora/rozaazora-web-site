@@ -20,8 +20,10 @@ const defaultArgs = ["-d", "../dist", "-s", "site"];
 gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, ["--buildDrafts", "--buildFuture"]));
 
-gulp.task("cms", () => {
-  const match = process.env.REPOSITORY_URL ? process.env.REPOSITORY_URL : cp.execSync("git remote -v", {encoding: "utf-8"});
+gulp.task("cms", (done) => {
+  const match = process.env.REPOSITORY_URL ? process.env.REPOSITORY_URL : cp.execSync("git remote -v", {
+    encoding: "utf-8"
+  });
   let repo = null;
   match.replace(/github.com[:/](\S+)(\.git)?/, (_, m) => {
     repo = m.replace(/\.git$/, "");
@@ -33,17 +35,20 @@ gulp.task("cms", () => {
   gulp.src(["./node_modules/netlify-cms/dist/*.*", "!./node_modules/netlify-cms/dist/*.html"])
     .pipe(gulp.dest("./dist"))
     .pipe(browserSync.stream());
+  done();
 });
 
 gulp.task("css", () => (
   gulp.src("./src/css/*.css")
-    .pipe(postcss([
-      cssImport({from: "./src/css/main.css"}),
-      cssnext(),
-      cssnano(),
-    ]))
-    .pipe(gulp.dest("./dist/css"))
-    .pipe(browserSync.stream())
+  .pipe(postcss([
+    cssImport({
+      from: "./src/css/main.css"
+    }),
+    cssnext(),
+    cssnano(),
+  ]))
+  .pipe(gulp.dest("./dist/css"))
+  .pipe(browserSync.stream())
 ));
 
 gulp.task("js", (cb) => {
@@ -67,7 +72,9 @@ gulp.task("svg", () => {
   const svgs = gulp
     .src("site/static/img/icons/*.svg")
     .pipe(svgmin())
-    .pipe(svgstore({inlineSvg: true}));
+    .pipe(svgstore({
+      inlineSvg: true
+    }));
 
   function fileContents(filePath, file) {
     return file.contents.toString();
@@ -75,7 +82,9 @@ gulp.task("svg", () => {
 
   return gulp
     .src("site/layouts/partials/svg.html")
-    .pipe(inject(svgs, {transform: fileContents}))
+    .pipe(inject(svgs, {
+      transform: fileContents
+    }))
     .pipe(gulp.dest("site/layouts/partials/"));
 });
 
@@ -97,7 +106,9 @@ gulp.task("server", gulp.series("hugo", "css", "js", "svg", "cms", (done) => {
 function buildSite(cb, options) {
   const args = options ? defaultArgs.concat(options) : defaultArgs;
 
-  return cp.spawn(hugoBin, args, {stdio: "inherit"}).on("close", (code) => {
+  return cp.spawn(hugoBin, args, {
+    stdio: "inherit"
+  }).on("close", (code) => {
     if (code === 0) {
       browserSync.reload("notify:false");
       cb();
