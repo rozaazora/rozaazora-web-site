@@ -65,7 +65,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: "Заголовок", name: "name", widget: "string"}
           - {label: "Изображение", name: "image", widget: "image", required: false}
-          - {label: "Видео", name: "vid", pattern: /^youtube (\S+)$/, required: false}
+          - {label: "Видео", name: "vid", required: false}
           - label: "Тег"
             name: "tags"
             widget: "list"
